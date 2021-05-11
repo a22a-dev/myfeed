@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-10T18:50:26.545Z</updated>
+    <updated>2021-05-11T00:39:29.028Z</updated>
     <generator>osmosfeed 1.6.0</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Topframe]]></title>
+        <id>https://css-tricks.com/?p=340020</id>
+        <link href="https://css-tricks.com/topframe/"/>
+        <updated>2021-05-10T21:14:15.000Z</updated>
+        <summary type="html"><![CDATA[This is extremely fun. Jeff Lindsay has created Topframe, and writes:
+Anybody that knows how to mess around with HTML can now mess around with their desktop computing experience.&#160;Topframe&#160;is an open source tool that lets you 
+&#8230;
+The post Topframe appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Migrating from Parcel to Snowpack]]></title>
+        <id>https://css-tricks.com/?p=340208</id>
+        <link href="https://benfrain.com/migrating-from-parcel-to-snowpack-build-tool-comparison/"/>
+        <updated>2021-05-10T21:13:23.000Z</updated>
+        <summary type="html"><![CDATA[I find build tooling endlessly interesting, especially right now as we&#8217;re in a juicy next-gen transitional period with players like Vite, wmr, Snowpack, and esbuild. Hugh Haworth has a good run-down of the new players, and we&#8217;ve chatted on &#8230;
+The post Migrating from Parcel to Snowpack appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Ace Your Coding Interview – Advice from a Senior Software Engineer]]></title>
         <id>60953e202cd0545b5e943a8b</id>
@@ -430,18 +456,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Creating Colorful, Smart Shadows]]></title>
-        <id>https://css-tricks.com/?p=339742</id>
-        <link href="https://www.kirupa.com/html5/creating_colorful_smart_shadows.htm"/>
-        <updated>2021-05-04T14:19:48.000Z</updated>
-        <summary type="html"><![CDATA[A bona fide CSS trick from Kirupa Chinnathambi here. To match a colored shadow with the colors in the background-image of an element, you inherit the background in a pseudo-element, kick it behind the original, then blur and filter it. &#8230;
-The post Creating Colorful, Smart Shadows appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Smashing Podcast Episode 36 With Miriam Suzanne: What Is The Future Of CSS?]]></title>
         <id>https://smashingmagazine.com/2021/05/smashing-podcast-episode-36/</id>
         <link href="https://smashingmagazine.com/2021/05/smashing-podcast-episode-36/"/>
@@ -449,18 +463,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <summary type="html"><![CDATA[In this episode, we’re starting our new season of the Smashing Podcast with a look at the future of CSS. What new specs will be landing in browsers soon? Drew McLellan talks to expert Miriam Suzanne to find out.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Drew McLellan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 8: CSS]]></title>
-        <id>https://css-tricks.com/?p=339419</id>
-        <link href="https://css-tricks.com/chapter-8-css/"/>
-        <updated>2021-05-03T21:52:08.000Z</updated>
-        <summary type="html"><![CDATA[In June of 2006, web developers and designers from around the world came to London for the second annual @media conference. The first had been a huge success, and @media 2006 had even more promise. Its speaker lineup was pulled &#8230;
-The post Chapter 8: CSS appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Jay Hoffmann</name>
         </author>
     </entry>
     <entry>
