@@ -558,6 +558,12 @@
           "title": "How to Use Selenium and Python to Scrape Websites More Effectively"
         }
       ]
+    },
+    {
+      "title": "Dan Luu",
+      "feedUrl": "https://danluu.com/atom.xml",
+      "siteUrl": "https://danluu.com/atom/index.xml",
+      "articles": []
     }
   ],
   "cliVersion": "1.7.0"
