@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-18T09:14:02.728Z</updated>
+    <updated>2021-05-18T18:54:13.240Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Distribution and Demand]]></title>
+        <id>https://stratechery.com/?p=5889</id>
+        <link href="https://stratechery.com/2021/distribution-and-demand/"/>
+        <updated>2021-05-18T12:57:29.000Z</updated>
+        <summary type="html"><![CDATA[Distribution on the Internet is free; what matters is controlling demand. AT&T and Verizon didn't understand the distinction.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.7.2]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2</id>
@@ -37,6 +47,16 @@ Chore: rendering logic refactoring. Adopting functional paradigm.
 Thank you @tianheg, @onnyyonn]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare on the Edge]]></title>
+        <id>https://stratechery.com/?p=5876</id>
+        <link href="https://stratechery.com/2021/cloudflare-on-the-edge/"/>
+        <updated>2021-05-11T17:01:56.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare is uniquely positioned to become a major player in an Internet 3.0 world, where politics matter more than economics.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
@@ -77,6 +97,16 @@ Changed: Favicon, css, and js assets now existing at site root level.
 Chore: Excluded testing files from repo.]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Market-Making on the Internet]]></title>
+        <id>https://stratechery.com/?p=5856</id>
+        <link href="https://stratechery.com/2021/market-making-on-the-internet/"/>
+        <updated>2021-05-05T13:58:27.000Z</updated>
+        <summary type="html"><![CDATA[More and more opportunities on the web come from market marking, not for advertisers, but for real goods and services paid for with real money.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
@@ -137,6 +167,56 @@ San Francisco is a dream to run in. You have hills like Twin Peaks that tower ov
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Spotify’s Surprise]]></title>
+        <id>https://stratechery.com/?p=5828</id>
+        <link href="https://stratechery.com/2021/spotifys-surprise/"/>
+        <updated>2021-04-28T13:19:27.000Z</updated>
+        <summary type="html"><![CDATA[Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Podcast Subscriptions vs. the App Store]]></title>
+        <id>https://stratechery.com/?p=5800</id>
+        <link href="https://stratechery.com/2021/podcast-subscriptions-vs-the-app-store/"/>
+        <updated>2021-04-21T14:44:43.000Z</updated>
+        <summary type="html"><![CDATA[Apple's new Podcast Subscription service is what the App Store should be: a great Apple experience competing for customers.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non-Fungible Taylor Swift]]></title>
+        <id>https://stratechery.com/?p=5756</id>
+        <link href="https://stratechery.com/2021/non-fungible-taylor-swift/"/>
+        <updated>2021-04-12T14:01:55.000Z</updated>
+        <summary type="html"><![CDATA[Taylor Swift, like Dave Chappelle, is leveraging the power of the Internet to take control of their art.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sovereign Writers and Substack]]></title>
+        <id>https://stratechery.com/?p=5684</id>
+        <link href="https://stratechery.com/2021/sovereign-writers-and-substack/"/>
+        <updated>2021-03-22T14:46:26.000Z</updated>
+        <summary type="html"><![CDATA[Substack is at the center of media controversy, most of which misses the point that sovereign writers — not Substack — are in control.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moderation in Infrastructure]]></title>
+        <id>https://stratechery.com/?p=5671</id>
+        <link href="https://stratechery.com/2021/moderation-in-infrastructure/"/>
+        <updated>2021-03-16T13:34:52.000Z</updated>
+        <summary type="html"><![CDATA[Infrastructure companies need a distinct approach to moderation that focuses on neutrality and due process.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The return of fancy tools]]></title>
         <id>https://macwright.com/2021/03/16/return-of-fancy-tools.html</id>
         <link href="https://macwright.com/2021/03/16/return-of-fancy-tools.html"/>
@@ -157,6 +237,16 @@ and people think how could he, my only response will be 🤷, why not.
 I’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, …]]></summary>
         <author>
             <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Roblox Microverse]]></title>
+        <id>https://stratechery.com/?p=5658</id>
+        <link href="https://stratechery.com/2021/the-roblox-microverse/"/>
+        <updated>2021-03-09T16:08:37.000Z</updated>
+        <summary type="html"><![CDATA[Roblox is something new and interesting that abstracts away the platforms underneath it.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
@@ -190,6 +280,16 @@ I’m the last person in the world to watch Spinal Tap, but boy is it fun.
 Adam Neely continues…]]></summary>
         <author>
             <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Web’s Missing Interoperability]]></title>
+        <id>https://stratechery.com/?p=5649</id>
+        <link href="https://stratechery.com/2021/the-webs-missing-interoperability/"/>
+        <updated>2021-03-02T15:13:18.000Z</updated>
+        <summary type="html"><![CDATA[Truly unlocking competition in tech means increasing interoperability; an absolutist approach to privacy is doing the exact opposite.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
