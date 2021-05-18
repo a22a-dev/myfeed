@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-18T00:51:55.472Z</updated>
+    <updated>2021-05-18T09:03:26.730Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Smashing Podcast Episode 37 With Adam Argyle: What Is VisBug?]]></title>
+        <id>https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/</id>
+        <link href="https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/"/>
+        <updated>2021-05-18T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode, we’re talking about VisBug. What is it, and how is it different from the array of options already found in Chrome DevTools? Drew McLellan talks to its creator Adam Argyle to find out.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voice and Tone in the freeCodeCamp Community&#x27;s Publication]]></title>
+        <id>608898b68eb3fb07cf098337</id>
+        <link href="https://www.freecodecamp.org/news/voice-and-tone-in-freecodecamp-publication/"/>
+        <updated>2021-05-18T02:40:44.000Z</updated>
+        <summary type="html"><![CDATA[When you're writing an article to publish on the freeCodeCamp community publication, it's important to keep in mind how you're saying what you're saying.  What are we talking about here? We're referring to your voice and your tone. These two aspects of your writing can have a strong effect on]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Humble `img` Element And Core Web Vitals]]></title>
         <id>https://css-tricks.com/?p=340716</id>
@@ -247,16 +267,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <link href="https://www.freecodecamp.org/news/types-of-software-testing/"/>
         <updated>2021-05-13T19:27:45.000Z</updated>
         <summary type="html"><![CDATA[Software development and testing go hand in hand. And in the era of agile software development, with quick releases of small iterations, you should do testing more and more frequently.  In order to perform effective testing, you need to know about the different types of testing and when you should]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Tutorial – How to Work with Multiple Checkboxes]]></title>
-        <id>609bcc6a62ab9107fe5a9f08</id>
-        <link href="https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/"/>
-        <updated>2021-05-13T18:17:49.000Z</updated>
-        <summary type="html"><![CDATA[Handling multiple checkboxes in React is completely different from how you use regular HTML checkboxes. So in this article, we'll see how to work with multiple checkboxes in React. You will learn: How to use a checkbox as a Controlled Input in ReactHow to use the array map and reduce]]></summary>
         <author>
             <name/>
         </author>
@@ -541,6 +551,17 @@ Chore: Refactored parameter passing for enrich step.]]></summary>
         <summary type="html"><![CDATA[Web-oriented databases, frameworks like Nuxt and Next.js, and even frameworkless approaches are evolving the Jamstack, but the core principles are more powerful than ever.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Mathias Biilmann)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recently - New York]]></title>
+        <id>https://macwright.com/2021/05/02/recently.html</id>
+        <link href="https://macwright.com/2021/05/02/recently.html"/>
+        <updated>2021-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.
+San Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Eleva…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
         </author>
     </entry>
     <entry>

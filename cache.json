@@ -225,7 +225,7 @@
           "description": "Chrome is experimenting with @container, a property within the CSS Working Group Containment Level 3 spec being championed by Miriam Suzanne of Oddbird, and a group of engineers across the web platform. @container brings us the ability to …\nThe post Next Gen CSS: @container appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/next-gen-css-container/",
           "publishedOn": "2021-05-11T14:36:10.000Z",
-          "wordCount": 1498,
+          "wordCount": 1569,
           "title": "Next Gen CSS: @container"
         },
         {
@@ -244,6 +244,15 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/",
+          "author": "hello@smashingmagazine.com (Drew McLellan)",
+          "description": "In this episode, we’re talking about VisBug. What is it, and how is it different from the array of options already found in Chrome DevTools? Drew McLellan talks to its creator Adam Argyle to find out.",
+          "link": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/",
+          "publishedOn": "2021-05-18T05:00:00.000Z",
+          "wordCount": 9250,
+          "title": "Smashing Podcast Episode 37 With Adam Argyle: What Is VisBug?"
+        },
         {
           "id": "https://smashingmagazine.com/2021/05/core-web-vitals-case-study/",
           "author": "hello@smashingmagazine.com (Beau Hartshorne)",
@@ -468,6 +477,15 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "608898b68eb3fb07cf098337",
+          "author": "",
+          "description": "When you're writing an article to publish on the freeCodeCamp community publication, it's important to keep in mind how you're saying what you're saying.  What are we talking about here? We're referring to your voice and your tone. These two aspects of your writing can have a strong effect on",
+          "link": "https://www.freecodecamp.org/news/voice-and-tone-in-freecodecamp-publication/",
+          "publishedOn": "2021-05-18T02:40:44.000Z",
+          "wordCount": 2357,
+          "title": "Voice and Tone in the freeCodeCamp Community&#x27;s Publication"
+        },
+        {
           "id": "60a2771762ab9107fe5ab383",
           "author": "",
           "description": "HTML vs JSX Hypertext Markup Language (HTML) is the standard language for documents that determine the structure of a web page.  HTML is a very important language in web development. Your code is either in HTML originally or compiles to it so browsers can read it.  JSX, on the other",
@@ -547,15 +565,6 @@
           "publishedOn": "2021-05-13T19:27:45.000Z",
           "wordCount": 1826,
           "title": "What is Software Testing? The 10 Most Common Types of Tests Developers Use in Projects"
-        },
-        {
-          "id": "609bcc6a62ab9107fe5a9f08",
-          "author": "",
-          "description": "Handling multiple checkboxes in React is completely different from how you use regular HTML checkboxes. So in this article, we'll see how to work with multiple checkboxes in React. You will learn: How to use a checkbox as a Controlled Input in ReactHow to use the array map and reduce",
-          "link": "https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/",
-          "publishedOn": "2021-05-13T18:17:49.000Z",
-          "wordCount": 1775,
-          "title": "React Tutorial – How to Work with Multiple Checkboxes"
         }
       ]
     },
@@ -564,6 +573,22 @@
       "feedUrl": "https://danluu.com/atom.xml",
       "siteUrl": "https://danluu.com/atom/index.xml",
       "articles": []
+    },
+    {
+      "title": "Tom MacWright",
+      "feedUrl": "https://macwright.com/atom.xml",
+      "siteUrl": "https://macwright.com/atom.xml",
+      "articles": [
+        {
+          "id": "https://macwright.com/2021/05/02/recently.html",
+          "author": null,
+          "description": "I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.\nSan Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Eleva…",
+          "link": "https://macwright.com/2021/05/02/recently.html",
+          "publishedOn": "2021-05-02T00:00:00.000Z",
+          "wordCount": 651,
+          "title": "Recently - New York"
+        }
+      ]
     }
   ],
   "cliVersion": "1.7.2"
