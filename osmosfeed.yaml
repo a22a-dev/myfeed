@@ -3,4 +3,4 @@ sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://danluu.com/atom.xml
   - href: https://macwright.com/atom.xml
-cacheMaxDays: 300
+cacheMaxDays: 3000
