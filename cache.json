@@ -110,6 +110,132 @@
           "publishedOn": "2020-12-29T00:00:00.000Z",
           "wordCount": 5620,
           "title": "Against essential and accidental complexity"
+        },
+        {
+          "id": "https://danluu.com/car-safety/",
+          "author": null,
+          "description": "Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that…",
+          "link": "https://danluu.com/car-safety/",
+          "publishedOn": "2020-06-30T07:06:34.000Z",
+          "wordCount": 7158,
+          "title": "How do cars fare in crash tests they're not specifically optimized for?"
+        },
+        {
+          "id": "https://danluu.com/voyager-story/",
+          "author": null,
+          "description": "This is an archive of an old pseudonymously written post from the 90s that seems to have disappeared from the internet.\nI see that Star Trek: Voyager has added a new character, a Borg.\n(From the photos, I also see that they're still breeding women for breast size\nin the 24th century.) What ticked me off was the producer's comment (I'm\nparaphrasing), \"The addition of Seven of Nine will give us limitless\nstory possibilities.\"\nUh-huh. Riiiiiight.\nLook, they did't recognize the stories they had.\nI watched the f…",
+          "link": "https://danluu.com/voyager-story/",
+          "publishedOn": "2020-06-02T07:05:34.000Z",
+          "wordCount": 1818,
+          "title": "Finding the Story"
+        },
+        {
+          "id": "https://danluu.com/tracing-analytics/",
+          "author": null,
+          "description": "A lot of people seem to think that distributed tracing isn't useful, or at least not without extreme effort that isn't worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I've had. Sure, there's value somewhere, but it costs too much to unlock.\nI think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing a…",
+          "link": "https://danluu.com/tracing-analytics/",
+          "publishedOn": "2020-05-31T07:06:34.000Z",
+          "wordCount": 4116,
+          "title": "A simple way to get more value from tracing"
+        },
+        {
+          "id": "https://danluu.com/metrics-analytics/",
+          "author": null,
+          "description": "We spent one day1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and all services and over any period of time (since inception), so we've called it LongTermMetrics (LTM) internally since I like boring, descriptive, names.\nThis got started when I was looking for a starter project th…",
+          "link": "https://danluu.com/metrics-analytics/",
+          "publishedOn": "2020-05-30T07:06:34.000Z",
+          "wordCount": 4097,
+          "title": "A simple way to get more value from metrics"
+        },
+        {
+          "id": "https://danluu.com/corp-eng-blogs/",
+          "author": null,
+          "description": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.\nI think this is odd because tech companies in that class often have hundreds to thousands of employees. They're overwhelmingly likely to be better equipped to write a compelli…",
+          "link": "https://danluu.com/corp-eng-blogs/",
+          "publishedOn": "2020-03-11T00:00:00.000Z",
+          "wordCount": 2209,
+          "title": "How (some) good corporate engineering blogs are written"
+        },
+        {
+          "id": "https://danluu.com/cli-complexity/",
+          "author": null,
+          "description": "My hobby: opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other.\nThe first of McIlroy's dicta is often paraphrased as \"do one thing and do it well\", which is shortened from \"Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new 'features.'\"\nMcIlroy's example of this dictum is:\nSurprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate …",
+          "link": "https://danluu.com/cli-complexity/",
+          "publishedOn": "2020-03-03T00:00:00.000Z",
+          "wordCount": 4123,
+          "title": "The growth of command line options, 1979-Present"
+        },
+        {
+          "id": "https://danluu.com/discontinuities/",
+          "author": null,
+          "description": "If you read any personal finance forums late last year, there's a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were expected to expire worthless, allowing the buyer to (probably) take a loss.\nOne reason people were looking for ways to lose money was that, in the U.S., there's a hard income cutoff for a health insurance subsid…",
+          "link": "https://danluu.com/discontinuities/",
+          "publishedOn": "2020-02-18T00:00:00.000Z",
+          "wordCount": 3696,
+          "title": "Suspicious discontinuities"
+        },
+        {
+          "id": "https://danluu.com/p95-skill/",
+          "author": null,
+          "description": "Reaching 95%-ile isn't very impressive because it's not that hard to do. I think this is one of my most ridiculable ideas. It doesn't help that, when stated nakedly, that sounds elitist. But I think it's just the opposite: most people can become (relatively) good at most things.\nNote that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I'm also not referring to 95%-ile among people who p…",
+          "link": "https://danluu.com/p95-skill/",
+          "publishedOn": "2020-02-07T00:00:00.000Z",
+          "wordCount": 7147,
+          "title": "95%-ile isn't that good"
+        },
+        {
+          "id": "https://danluu.com/algorithms-interviews/",
+          "author": null,
+          "description": "When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like \"we have so much scale, we can't afford to have someone accidentally write an O(n^2) algorithm and bring the site down\"1.  One thing I find funny about this is, even though a decent fraction of the value I've provided for companies has been solving phone-screen level algorithms problems on the job, I can't pass algorithms interviews! When I say that, people often think I mean t…",
+          "link": "https://danluu.com/algorithms-interviews/",
+          "publishedOn": "2020-01-05T00:00:00.000Z",
+          "wordCount": 5771,
+          "title": "Algorithms interviews: theory vs. practice"
+        },
+        {
+          "id": "https://danluu.com/deconstruct-files/",
+          "author": null,
+          "description": "This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that's 2.4 MB. If you think that's trivial, consider that half of Americans still aren't on broadband and the situation is much worse in developing countries.\nLet's talk about files! Most developers seem to think that files are easy. Just for e…",
+          "link": "https://danluu.com/deconstruct-files/",
+          "publishedOn": "2019-07-12T00:00:00.000Z",
+          "wordCount": 6586,
+          "title": "Files are fraught with peril"
+        },
+        {
+          "id": "https://danluu.com/overwatch-gender/",
+          "author": null,
+          "description": "A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you…",
+          "link": "https://danluu.com/overwatch-gender/",
+          "publishedOn": "2019-02-19T00:00:00.000Z",
+          "wordCount": 6001,
+          "title": "Randomized trial on gender in Overwatch"
+        },
+        {
+          "id": "https://danluu.com/fsyncgate/",
+          "author": null,
+          "description": "This is an archive of the original \"fsyncgate\" email thread. This is posted here because I wanted to have a link that would fit on a slide for a talk on file safety with a mobile-friendly non-bloated format.\nFrom:Craig Ringer <craig(at)2ndquadrant(dot)com>\nSubject:Re: PostgreSQL's handling of fsync() errors is unsafe and risks data loss at least on XFS\nDate:2018-03-28 02:23:46\n\nHi all\nSome time ago I ran into an issue where a user encountered data corruption\nafter a storage error. PostgreSQL played a part i…",
+          "link": "https://danluu.com/fsyncgate/",
+          "publishedOn": "2018-03-28T00:00:00.000Z",
+          "wordCount": 84172,
+          "title": "Fsyncgate: errors on fsync are unrecovarable"
+        },
+        {
+          "id": "https://danluu.com/input-lag/",
+          "author": null,
+          "description": "I've had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response latency of devices I’ve run into in the past few months. Here are the results:\ntable {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}…",
+          "link": "https://danluu.com/input-lag/",
+          "publishedOn": "2017-12-24T00:00:00.000Z",
+          "wordCount": 4778,
+          "title": "Computer latency: 1977-2017"
+        },
+        {
+          "id": "https://danluu.com/bad-decisions/",
+          "author": null,
+          "description": "A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the informat…",
+          "link": "https://danluu.com/bad-decisions/",
+          "publishedOn": "2017-11-21T00:00:00.000Z",
+          "wordCount": 5923,
+          "title": "How good are decisions?"
         }
       ]
     },

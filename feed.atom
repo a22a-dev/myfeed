@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-18T09:08:27.327Z</updated>
+    <updated>2021-05-18T09:14:02.728Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
@@ -272,6 +272,171 @@ It’s just above a set of stairs off the side of the road, but I was always int
         <link href="https://danluu.com/essential-complexity/"/>
         <updated>2020-12-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that's fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl's law argument, saying that because 1/X of complexity is essential, it's impossible to ever get more than a fact…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How do cars fare in crash tests they're not specifically optimized for?]]></title>
+        <id>https://danluu.com/car-safety/</id>
+        <link href="https://danluu.com/car-safety/"/>
+        <updated>2020-06-30T07:06:34.000Z</updated>
+        <summary type="html"><![CDATA[Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding the Story]]></title>
+        <id>https://danluu.com/voyager-story/</id>
+        <link href="https://danluu.com/voyager-story/"/>
+        <updated>2020-06-02T07:05:34.000Z</updated>
+        <summary type="html"><![CDATA[This is an archive of an old pseudonymously written post from the 90s that seems to have disappeared from the internet.
+I see that Star Trek: Voyager has added a new character, a Borg.
+(From the photos, I also see that they're still breeding women for breast size
+in the 24th century.) What ticked me off was the producer's comment (I'm
+paraphrasing), "The addition of Seven of Nine will give us limitless
+story possibilities."
+Uh-huh. Riiiiiight.
+Look, they did't recognize the stories they had.
+I watched the f…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple way to get more value from tracing]]></title>
+        <id>https://danluu.com/tracing-analytics/</id>
+        <link href="https://danluu.com/tracing-analytics/"/>
+        <updated>2020-05-31T07:06:34.000Z</updated>
+        <summary type="html"><![CDATA[A lot of people seem to think that distributed tracing isn't useful, or at least not without extreme effort that isn't worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I've had. Sure, there's value somewhere, but it costs too much to unlock.
+I think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing a…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple way to get more value from metrics]]></title>
+        <id>https://danluu.com/metrics-analytics/</id>
+        <link href="https://danluu.com/metrics-analytics/"/>
+        <updated>2020-05-30T07:06:34.000Z</updated>
+        <summary type="html"><![CDATA[We spent one day1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and all services and over any period of time (since inception), so we've called it LongTermMetrics (LTM) internally since I like boring, descriptive, names.
+This got started when I was looking for a starter project th…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How (some) good corporate engineering blogs are written]]></title>
+        <id>https://danluu.com/corp-eng-blogs/</id>
+        <link href="https://danluu.com/corp-eng-blogs/"/>
+        <updated>2020-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.
+I think this is odd because tech companies in that class often have hundreds to thousands of employees. They're overwhelmingly likely to be better equipped to write a compelli…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The growth of command line options, 1979-Present]]></title>
+        <id>https://danluu.com/cli-complexity/</id>
+        <link href="https://danluu.com/cli-complexity/"/>
+        <updated>2020-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My hobby: opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other.
+The first of McIlroy's dicta is often paraphrased as "do one thing and do it well", which is shortened from "Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new 'features.'"
+McIlroy's example of this dictum is:
+Surprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate …]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Suspicious discontinuities]]></title>
+        <id>https://danluu.com/discontinuities/</id>
+        <link href="https://danluu.com/discontinuities/"/>
+        <updated>2020-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you read any personal finance forums late last year, there's a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were expected to expire worthless, allowing the buyer to (probably) take a loss.
+One reason people were looking for ways to lose money was that, in the U.S., there's a hard income cutoff for a health insurance subsid…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[95%-ile isn't that good]]></title>
+        <id>https://danluu.com/p95-skill/</id>
+        <link href="https://danluu.com/p95-skill/"/>
+        <updated>2020-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reaching 95%-ile isn't very impressive because it's not that hard to do. I think this is one of my most ridiculable ideas. It doesn't help that, when stated nakedly, that sounds elitist. But I think it's just the opposite: most people can become (relatively) good at most things.
+Note that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I'm also not referring to 95%-ile among people who p…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Algorithms interviews: theory vs. practice]]></title>
+        <id>https://danluu.com/algorithms-interviews/</id>
+        <link href="https://danluu.com/algorithms-interviews/"/>
+        <updated>2020-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like "we have so much scale, we can't afford to have someone accidentally write an O(n^2) algorithm and bring the site down"1.  One thing I find funny about this is, even though a decent fraction of the value I've provided for companies has been solving phone-screen level algorithms problems on the job, I can't pass algorithms interviews! When I say that, people often think I mean t…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Files are fraught with peril]]></title>
+        <id>https://danluu.com/deconstruct-files/</id>
+        <link href="https://danluu.com/deconstruct-files/"/>
+        <updated>2019-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that's 2.4 MB. If you think that's trivial, consider that half of Americans still aren't on broadband and the situation is much worse in developing countries.
+Let's talk about files! Most developers seem to think that files are easy. Just for e…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Randomized trial on gender in Overwatch]]></title>
+        <id>https://danluu.com/overwatch-gender/</id>
+        <link href="https://danluu.com/overwatch-gender/"/>
+        <updated>2019-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fsyncgate: errors on fsync are unrecovarable]]></title>
+        <id>https://danluu.com/fsyncgate/</id>
+        <link href="https://danluu.com/fsyncgate/"/>
+        <updated>2018-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is an archive of the original "fsyncgate" email thread. This is posted here because I wanted to have a link that would fit on a slide for a talk on file safety with a mobile-friendly non-bloated format.
+From:Craig Ringer <craig(at)2ndquadrant(dot)com>
+Subject:Re: PostgreSQL's handling of fsync() errors is unsafe and risks data loss at least on XFS
+Date:2018-03-28 02:23:46
+
+Hi all
+Some time ago I ran into an issue where a user encountered data corruption
+after a storage error. PostgreSQL played a part i…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Computer latency: 1977-2017]]></title>
+        <id>https://danluu.com/input-lag/</id>
+        <link href="https://danluu.com/input-lag/"/>
+        <updated>2017-12-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response latency of devices I’ve run into in the past few months. Here are the results:
+table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}…]]></summary>
+        <author>
+            <name>Dan Luu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How good are decisions?]]></title>
+        <id>https://danluu.com/bad-decisions/</id>
+        <link href="https://danluu.com/bad-decisions/"/>
+        <updated>2017-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the informat…]]></summary>
         <author>
             <name>Dan Luu</name>
         </author>
