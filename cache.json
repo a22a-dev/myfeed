@@ -101,7 +101,17 @@
       "title": "Dan Luu",
       "feedUrl": "https://danluu.com/atom.xml",
       "siteUrl": "https://danluu.com/atom/index.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://danluu.com/essential-complexity/",
+          "author": null,
+          "description": "In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that's fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl's law argument, saying that because 1/X of complexity is essential, it's impossible to ever get more than a fact…",
+          "link": "https://danluu.com/essential-complexity/",
+          "publishedOn": "2020-12-29T00:00:00.000Z",
+          "wordCount": 5620,
+          "title": "Against essential and accidental complexity"
+        }
+      ]
     },
     {
       "title": "Tom MacWright",
@@ -116,6 +126,87 @@
           "publishedOn": "2021-05-02T00:00:00.000Z",
           "wordCount": 651,
           "title": "Recently - New York"
+        },
+        {
+          "id": "https://macwright.com/2021/03/16/return-of-fancy-tools.html",
+          "author": null,
+          "description": "Technology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmoded by Linear.\nThe pendulum swings back and forth, which isn’t a bad thing. Some o…",
+          "link": "https://macwright.com/2021/03/16/return-of-fancy-tools.html",
+          "publishedOn": "2021-03-16T00:00:00.000Z",
+          "wordCount": 537,
+          "title": "The return of fancy tools"
+        },
+        {
+          "id": "https://macwright.com/2021/03/11/vendor-by-default.html",
+          "author": null,
+          "description": "This isn’t a recommendation. It’s more of a habit that I’ve acquired recently. If this makes its way to Hacker News\nand people think how could he, my only response will be 🤷, why not.\nI’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, …",
+          "link": "https://macwright.com/2021/03/11/vendor-by-default.html",
+          "publishedOn": "2021-03-11T00:00:00.000Z",
+          "wordCount": 1003,
+          "title": "Vendor by default"
+        },
+        {
+          "id": "https://macwright.com/2021/03/05/immutable-approaches.html",
+          "author": null,
+          "description": "These are some rough thoughts on how to do immutability in programming, to power undo. If you’re looking for an opinionated ‘this is how to do it’ sort of post, I’ve written that about Immutable.js. This is more a publicly-shared scratchpad.\nFor the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle chall…",
+          "link": "https://macwright.com/2021/03/05/immutable-approaches.html",
+          "publishedOn": "2021-03-05T00:00:00.000Z",
+          "wordCount": 921,
+          "title": "Immutable approaches"
+        },
+        {
+          "id": "https://macwright.com/2021/03/03/recently.html",
+          "author": null,
+          "description": "A little late on this one! I’ve been focusing a bit on projects and work, and those days flipped past.\nListening\nI’ve been catching up on some back catalogs - Childish Gambino’s 3.15.20 and Beach House’s Depression Cherry.\nDepression Cherry by Beach House\n\nThe little bit of new music is Claud’s spectacular “Super Monster” a hit-packed little indie pop album. (via Rebecca Williams)\nSuper Monster by Claud\n\nWatching\n\n\nI’m the last person in the world to watch Spinal Tap, but boy is it fun.\nAdam Neely continues…",
+          "link": "https://macwright.com/2021/03/03/recently.html",
+          "publishedOn": "2021-03-03T00:00:00.000Z",
+          "wordCount": 243,
+          "title": "Recently"
+        },
+        {
+          "id": "https://macwright.com/2021/02/23/one-way-to-represent-things.html",
+          "author": null,
+          "description": "I have a theory about the future of programming. I doubt I’m the first to have it, but as far as I can tell this isn’t the mainstream thought in the area, and I want to see if this connects for other folks.\nThere’s this idea about having ‘one way to do things’, that I think is most famous in its phrasing from the Zen of Python\nThere should be one– and preferably only one –obvious way to do it.\nPerl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”…",
+          "link": "https://macwright.com/2021/02/23/one-way-to-represent-things.html",
+          "publishedOn": "2021-02-23T00:00:00.000Z",
+          "wordCount": 614,
+          "title": "One way to represent things"
+        },
+        {
+          "id": "https://macwright.com/2021/02/18/a-year-of-rails.html",
+          "author": null,
+          "description": "I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.\nWe didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of …",
+          "link": "https://macwright.com/2021/02/18/a-year-of-rails.html",
+          "publishedOn": "2021-02-18T00:00:00.000Z",
+          "wordCount": 2188,
+          "title": "A year of Rails"
+        },
+        {
+          "id": "https://macwright.com/2021/02/17/the-naming-of-things.html",
+          "author": null,
+          "description": "Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.\nAvoid weasel words\nWikipedia’s article about weasel words is incredible. In this context I mean words like this:\nData\nProcess\nRun\nDo\nSetup\nThese words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s be…",
+          "link": "https://macwright.com/2021/02/17/the-naming-of-things.html",
+          "publishedOn": "2021-02-17T00:00:00.000Z",
+          "wordCount": 596,
+          "title": "Picking better names for variables, functions, and projects"
+        },
+        {
+          "id": "https://macwright.com/2021/02/01/recently.html",
+          "author": null,
+          "description": "The last Recently feels like\na lot longer than a month away. In the undifferentiated temporal sprawl of the last\nyear, leaving my job in January marked a clear difference between between before\nand after. Not, though, in the sense that I haven’t been working. My time\nquickly filled up with a little freelance work, a lot of projects, and some pent-up\nenergy directed into reading and writing. I wrote\na few\nthings this month.\nFrustrated with SwiftUI, I abandoned the first version of a Gemini browser\nand am rew…",
+          "link": "https://macwright.com/2021/02/01/recently.html",
+          "publishedOn": "2021-02-01T00:00:00.000Z",
+          "wordCount": 641,
+          "title": "Recently"
+        },
+        {
+          "id": "https://macwright.com/2021/01/22/tank-hill.html",
+          "author": null,
+          "description": "I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.\n\n\nIt’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin…",
+          "link": "https://macwright.com/2021/01/22/tank-hill.html",
+          "publishedOn": "2021-01-22T00:00:00.000Z",
+          "wordCount": 768,
+          "title": "Tom Rates Hills: Tank Hill"
         }
       ]
     }

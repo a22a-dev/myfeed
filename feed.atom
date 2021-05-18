@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-18T09:04:51.117Z</updated>
+    <updated>2021-05-18T09:08:27.327Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
@@ -134,6 +134,146 @@ Chore: Refactored parameter passing for enrich step.]]></summary>
 San Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Eleva…]]></summary>
         <author>
             <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The return of fancy tools]]></title>
+        <id>https://macwright.com/2021/03/16/return-of-fancy-tools.html</id>
+        <link href="https://macwright.com/2021/03/16/return-of-fancy-tools.html"/>
+        <updated>2021-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Technology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmoded by Linear.
+The pendulum swings back and forth, which isn’t a bad thing. Some o…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vendor by default]]></title>
+        <id>https://macwright.com/2021/03/11/vendor-by-default.html</id>
+        <link href="https://macwright.com/2021/03/11/vendor-by-default.html"/>
+        <updated>2021-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This isn’t a recommendation. It’s more of a habit that I’ve acquired recently. If this makes its way to Hacker News
+and people think how could he, my only response will be 🤷, why not.
+I’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, …]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Immutable approaches]]></title>
+        <id>https://macwright.com/2021/03/05/immutable-approaches.html</id>
+        <link href="https://macwright.com/2021/03/05/immutable-approaches.html"/>
+        <updated>2021-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These are some rough thoughts on how to do immutability in programming, to power undo. If you’re looking for an opinionated ‘this is how to do it’ sort of post, I’ve written that about Immutable.js. This is more a publicly-shared scratchpad.
+For the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle chall…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recently]]></title>
+        <id>https://macwright.com/2021/03/03/recently.html</id>
+        <link href="https://macwright.com/2021/03/03/recently.html"/>
+        <updated>2021-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A little late on this one! I’ve been focusing a bit on projects and work, and those days flipped past.
+Listening
+I’ve been catching up on some back catalogs - Childish Gambino’s 3.15.20 and Beach House’s Depression Cherry.
+Depression Cherry by Beach House
+
+The little bit of new music is Claud’s spectacular “Super Monster” a hit-packed little indie pop album. (via Rebecca Williams)
+Super Monster by Claud
+
+Watching
+
+
+I’m the last person in the world to watch Spinal Tap, but boy is it fun.
+Adam Neely continues…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One way to represent things]]></title>
+        <id>https://macwright.com/2021/02/23/one-way-to-represent-things.html</id>
+        <link href="https://macwright.com/2021/02/23/one-way-to-represent-things.html"/>
+        <updated>2021-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have a theory about the future of programming. I doubt I’m the first to have it, but as far as I can tell this isn’t the mainstream thought in the area, and I want to see if this connects for other folks.
+There’s this idea about having ‘one way to do things’, that I think is most famous in its phrasing from the Zen of Python
+There should be one– and preferably only one –obvious way to do it.
+Perl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A year of Rails]]></title>
+        <id>https://macwright.com/2021/02/18/a-year-of-rails.html</id>
+        <link href="https://macwright.com/2021/02/18/a-year-of-rails.html"/>
+        <updated>2021-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.
+We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of …]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Picking better names for variables, functions, and projects]]></title>
+        <id>https://macwright.com/2021/02/17/the-naming-of-things.html</id>
+        <link href="https://macwright.com/2021/02/17/the-naming-of-things.html"/>
+        <updated>2021-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.
+Avoid weasel words
+Wikipedia’s article about weasel words is incredible. In this context I mean words like this:
+Data
+Process
+Run
+Do
+Setup
+These words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s be…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recently]]></title>
+        <id>https://macwright.com/2021/02/01/recently.html</id>
+        <link href="https://macwright.com/2021/02/01/recently.html"/>
+        <updated>2021-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The last Recently feels like
+a lot longer than a month away. In the undifferentiated temporal sprawl of the last
+year, leaving my job in January marked a clear difference between between before
+and after. Not, though, in the sense that I haven’t been working. My time
+quickly filled up with a little freelance work, a lot of projects, and some pent-up
+energy directed into reading and writing. I wrote
+a few
+things this month.
+Frustrated with SwiftUI, I abandoned the first version of a Gemini browser
+and am rew…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tom Rates Hills: Tank Hill]]></title>
+        <id>https://macwright.com/2021/01/22/tank-hill.html</id>
+        <link href="https://macwright.com/2021/01/22/tank-hill.html"/>
+        <updated>2021-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.
+
+
+It’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Against essential and accidental complexity]]></title>
+        <id>https://danluu.com/essential-complexity/</id>
+        <link href="https://danluu.com/essential-complexity/"/>
+        <updated>2020-12-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that's fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl's law argument, saying that because 1/X of complexity is essential, it's impossible to ever get more than a fact…]]></summary>
+        <author>
+            <name>Dan Luu</name>
         </author>
     </entry>
 </feed>
