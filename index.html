@@ -16,6 +16,40 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-23">2021-05-23</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.com/osmoscraft/osmosfeed/releases">Release notes from osmosfeed</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">v1.8.1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">v1.8.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don&#x27;t use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a &quot;pseudo&quot; summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.
+Thank you: @LooperXX.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-05-18">2021-05-18</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -217,28 +251,6 @@ Chore: Refactored parameter passing for enrich step.</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">v1.2.3</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Changed: favicon update.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">v1.2.1</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Added: Display CLI version in footer.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -274,7 +286,8 @@ Chore: Refactored parameter passing for enrich step.</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
                     <span>I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.
-San Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Eleva…</span>
+San Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Elevation is so unavoidable that some hilly runs start to seem flat, then you visit another city and realize you can run 20 seconds faster a mile when things are actually flat.
+When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mistake, I lived in the Mission District…</span>
                   </div>
                 </a>
               </details>
@@ -385,7 +398,8 @@ San Francisco is a dream to run in. You have hills like Twin Peaks that tower ov
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
                     <span>Technology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmoded by Linear.
-The pendulum swings back and forth, which isn’t a bad thing. Some o…</span>
+The pendulum swings back and forth, which isn’t a bad thing. Some of the reasons for the last pivot - from complexity to simplicity - have been solved. Webflow fills a need, and produces better output than Dreamweaver did. Notion is more accessible to people who don’t know Markdown. VS Code is very helpful. Excessively helpful. It’s fine.
+The same probl…</span>
                   </div>
                 </a>
               </details>
@@ -426,7 +440,9 @@ The pendulum swings back and forth, which isn’t a bad thing. Some o…</span>
                     <span class="article-reading-time">(3 min)</span>
                     <span>This isn’t a recommendation. It’s more of a habit that I’ve acquired recently. If this makes its way to Hacker News
 and people think how could he, my only response will be 🤷, why not.
-I’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, …</span>
+I’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, and so on. So there’s not that much to write home about that would surprise your usual React/Next.js/JavaScript engineer person.
+But one thing that I do think is sort of unusual is: I’m vendoring a lot of stuff.
+Vendoring, in the programming sense, means “copying the source code of anoth…</span>
                   </div>
                 </a>
               </details>
@@ -471,7 +487,15 @@ I’ve been building a thing, in JavaScript, an application sort of like things 
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>These are some rough thoughts on how to do immutability in programming, to power undo. If you’re looking for an opinionated ‘this is how to do it’ sort of post, I’ve written that about Immutable.js. This is more a publicly-shared scratchpad.
-For the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle chall…</span>
+For the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle challenge for both UX &amp; algorithms.
+I don’t think that my standard approach, in-memory immutability, is the way to go anymore.
+In-memory immutability
+
+const myself &#x3D; Immutable.Map({ name: &quot;Tom&quot;, favoriteColor: &quot;red&quot; });
+const you &#x3D; myself.set(&quot;name&quot;, &quot;You&quot;);
+
+
+This is what was in Mapbox Studi…</span>
                   </div>
                 </a>
               </details>
@@ -505,7 +529,10 @@ Watching
 
 
 I’m the last person in the world to watch Spinal Tap, but boy is it fun.
-Adam Neely continues…</span>
+Adam Neely continues to make great stuff, like his breakdown of the ‘sea shanty’ trend on TikTok, from a music history perspective.
+Reading
+I had bad luck with books in February, grinding my way through two that didn’t inspire. But then On Writing from Stephen King, which was excellent, and I’m part-way through Patricia Lockwood’s new book, No One Is Talking about This which is awesome so far. It’s, sure, for the incredibly online.
+In my experience, if you’re incredibly online, then books that talk about the Internet, but are written by or for the the occasionally online – are unreadable. They live on the surface, exploring surface level memes like milkshake-duck or Pepe. So you mostly read books that are unrelated to the Internet, so that you don’t read some re-explanation of milkshake-ducking for the fifth time. Anyway, Lockwood lives it, knows the real stuff, and she’s also a fantastically good writer.</span>
                   </div>
                 </a>
               </details>
@@ -552,7 +579,9 @@ Adam Neely continues…</span>
                     <span>I have a theory about the future of programming. I doubt I’m the first to have it, but as far as I can tell this isn’t the mainstream thought in the area, and I want to see if this connects for other folks.
 There’s this idea about having ‘one way to do things’, that I think is most famous in its phrasing from the Zen of Python
 There should be one– and preferably only one –obvious way to do it.
-Perl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”…</span>
+Perl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”, as I’d guess is the dictum of Python and Go, or many ways, like Rust, JavaScript, Lisps, etc, it’s sort of undecided.
+But let’s flip the telescope around and peer into the other end.
+Programming is about data structures and the ways you manipulate them. There are few languages that can…</span>
                   </div>
                 </a>
               </details>
@@ -575,7 +604,8 @@ Perl has the opposite motto: There’s more than one way to do it. Whether it’
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(7 min)</span>
                     <span>I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.
-We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of …</span>
+We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of choosing the right kind of solution than pursuing some kind of perfect choice and burning hours and motivation doing the window-shopping.
+What helped Rails win was that the team had a little more experience in Ruby (with the exception of myself), and we found plenty of resources for deve…</span>
                   </div>
                 </a>
               </details>
@@ -605,7 +635,11 @@ Process
 Run
 Do
 Setup
-These words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s be…</span>
+These words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s better:
+A method like processData probably isn’t processing any kind of data. Maybe processCsv?
+Is it really just “processing” that CSV. Maybe it’s coercing columns that are strings that should be numbers. Maybe coerceCsvRows?
+That’s probably better!
+A variable like data probably isn’t gen…</span>
                   </div>
                 </a>
               </details>
@@ -636,7 +670,11 @@ energy directed into reading and writing. I wrote
 a few
 things this month.
 Frustrated with SwiftUI, I abandoned the first version of a Gemini browser
-and am rew…</span>
+and am rewriting it in something else. It is abundantly clear that, as an unemployed person or not, I have zero chill.
+And thanks to everyone who has reached out re: my work thing!
+Reading
+I am, of course, a sucker for Robin Rendle’s thing about newsletters.
+Like all technology on the upswing, it’…</span>
                   </div>
                 </a>
               </details>
@@ -661,7 +699,9 @@ and am rew…</span>
                     <span>I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.
 
 
-It’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin…</span>
+It’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin Peaks, or continuing through to the bigger hills behind it. Stairs in San Francisco are ever-present and sort of a grab-bag - from the street, I can’t tell if they’re leading to another road, a view, or someone’s secluded mansion.
+Views: 5/5
+Tank Hill feels like Corona Heights or Kite H…</span>
                   </div>
                 </a>
               </details>
@@ -683,7 +723,8 @@ It’s just above a set of stairs off the side of the road, but I was always int
                 <a class="article-summary-link article-summary-box-outer" href="https://danluu.com/essential-complexity/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(19 min)</span>
-                    <span>In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that&#x27;s fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl&#x27;s law argument, saying that because 1/X of complexity is essential, it&#x27;s impossible to ever get more than a fact…</span>
+                    <span>In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that&#x27;s fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl&#x27;s law argument, saying that because 1/X of complexity is essential, it&#x27;s impossible to ever get more than a factor of X improvement via technological improvements.
+Towards the end of the essay, Brooks claims that at least 1/2 (most) of complexity in programming is essential, bounding the potential improvement remaining for all technological programming innovations combined to, at most, a factor of…</span>
                   </div>
                 </a>
               </details>
@@ -705,7 +746,7 @@ It’s just above a set of stairs off the side of the road, but I was always int
                 <a class="article-summary-link article-summary-box-outer" href="https://danluu.com/car-safety/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(24 min)</span>
-                    <span>Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that…</span>
+                    <span>Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that lowers image quality during benchmarking to produce higher benchmark scores. Of course, gaming the benchmark isn&#x27;t unique to computing and we see people do this in other fields. It’s not surprising that we see this kind of behavior since improving benchmark scores by cheating on benchma…</span>
                   </div>
                 </a>
               </details>
@@ -735,7 +776,12 @@ paraphrasing), &quot;The addition of Seven of Nine will give us limitless
 story possibilities.&quot;
 Uh-huh. Riiiiiight.
 Look, they did&#x27;t recognize the stories they had.
-I watched the f…</span>
+I watched the first few episodes of Voyager
+and quit when my bullshit meter when off the scale.
+(Maybe that&#x27;s not fair, to judge them by only a few episodes.
+But it&#x27;s not fair to subject me to crap like the holographic lungs, either.)
+For those of you who don&#x27;t watch Star Trek: Voyager,
+the premise is …</span>
                   </div>
                 </a>
               </details>
@@ -758,7 +804,7 @@ I watched the f…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(14 min)</span>
                     <span>A lot of people seem to think that distributed tracing isn&#x27;t useful, or at least not without extreme effort that isn&#x27;t worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I&#x27;ve had. Sure, there&#x27;s value somewhere, but it costs too much to unlock.
-I think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing a…</span>
+I think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing and executed on it (with help from a number other folks, including Jonathan Simms, Yuri Vishnevsky, Ruben Oanta, Dave Rusek, Hamdi Allam, and many others1) such that the work easily paid for itself. This post is going to describe the tracing &quot;infrastructure&quot; we&#x27;ve built and describe some …</span>
                   </div>
                 </a>
               </details>
@@ -781,7 +827,7 @@ I think this overestimates how much work it is to get a lot of value from tracin
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(14 min)</span>
                     <span>We spent one day1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and all services and over any period of time (since inception), so we&#x27;ve called it LongTermMetrics (LTM) internally since I like boring, descriptive, names.
-This got started when I was looking for a starter project th…</span>
+This got started when I was looking for a starter project that would both help me understand the Twitter infra stack and also have some easily quantifiable value. Andy Wilcox suggested looking at JVM survivor space utilization for some large services. If you&#x27;re not familiar with what survivor space is, you can think of it as a configurable, fixed…</span>
                   </div>
                 </a>
               </details>
@@ -804,7 +850,8 @@ This got started when I was looking for a starter project th…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(7 min)</span>
                     <span>I&#x27;ve been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it&#x27;s pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it&#x27;s not uncommon for my blog to get an order of magnitude more traffic.
-I think this is odd because tech companies in that class often have hundreds to thousands of employees. They&#x27;re overwhelmingly likely to be better equipped to write a compelli…</span>
+I think this is odd because tech companies in that class often have hundreds to thousands of employees. They&#x27;re overwhelmingly likely to be better equipped to write a compelling blog than I am and companies get a lot more value from having a compelling blog than I do.
+With respect to the former, employees of the company will have done more interesting engineering work, have more fun stories, and have more in-depth knowledge than any one person who has a perso…</span>
                   </div>
                 </a>
               </details>
@@ -829,7 +876,11 @@ I think this is odd because tech companies in that class often have hundreds to 
                     <span>My hobby: opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other.
 The first of McIlroy&#x27;s dicta is often paraphrased as &quot;do one thing and do it well&quot;, which is shortened from &quot;Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new &#x27;features.&#x27;&quot;
 McIlroy&#x27;s example of this dictum is:
-Surprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate …</span>
+Surprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate program.
+If you open up a manpage for ls on mac, you’ll see that it starts with
+ls [-ABCFGHLOPRSTUW@abcdefghiklmnopqrstuwx1] [file ...]
+
+That is, the one-letter flags to ls include every lowercase letter except for {jvyz}, 14 uppercase letters, plus @ and 1. That’s 22 + 14 + 2 &#x3D; 38 singl…</span>
                   </div>
                 </a>
               </details>
@@ -852,7 +903,7 @@ Surprising to outsiders is the fact that UNIX compilers produce no listings: pri
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(12 min)</span>
                     <span>If you read any personal finance forums late last year, there&#x27;s a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were expected to expire worthless, allowing the buyer to (probably) take a loss.
-One reason people were looking for ways to lose money was that, in the U.S., there&#x27;s a hard income cutoff for a health insurance subsid…</span>
+One reason people were looking for ways to lose money was that, in the U.S., there&#x27;s a hard income cutoff for a health insurance subsidy at $48,560 for individuals (higher for larger households; $100,400 for a family of four). There are a number of factors that can cause the details to vary (age, location, household size, type of plan), but across all circumstances, it wouldn&#x27;t have been uncommon for an individual going…</span>
                   </div>
                 </a>
               </details>
@@ -875,7 +926,8 @@ One reason people were looking for ways to lose money was that, in the U.S., the
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(24 min)</span>
                     <span>Reaching 95%-ile isn&#x27;t very impressive because it&#x27;s not that hard to do. I think this is one of my most ridiculable ideas. It doesn&#x27;t help that, when stated nakedly, that sounds elitist. But I think it&#x27;s just the opposite: most people can become (relatively) good at most things.
-Note that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I&#x27;m also not referring to 95%-ile among people who p…</span>
+Note that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I&#x27;m also not referring to 95%-ile among people who practice regularly. The &quot;one weird trick&quot; is that, for a lot of activities, being something like 10%-ile among people who practice can make you something like 90%-ile or 99%-ile among people who participate.
+This post is going to refer to specifics since the discussions I&#x27;ve seen about th…</span>
                   </div>
                 </a>
               </details>
@@ -897,7 +949,8 @@ Note that when I say 95%-ile, I mean 95%-ile among people who participate, not a
                 <a class="article-summary-link article-summary-box-outer" href="https://danluu.com/algorithms-interviews/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(19 min)</span>
-                    <span>When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like &quot;we have so much scale, we can&#x27;t afford to have someone accidentally write an O(n^2) algorithm and bring the site down&quot;1.  One thing I find funny about this is, even though a decent fraction of the value I&#x27;ve provided for companies has been solving phone-screen level algorithms problems on the job, I can&#x27;t pass algorithms interviews! When I say that, people often think I mean t…</span>
+                    <span>When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like &quot;we have so much scale, we can&#x27;t afford to have someone accidentally write an O(n^2) algorithm and bring the site down&quot;1.  One thing I find funny about this is, even though a decent fraction of the value I&#x27;ve provided for companies has been solving phone-screen level algorithms problems on the job, I can&#x27;t pass algorithms interviews! When I say that, people often think I mean that I fail half my interviews or something. It&#x27;s more than half.
+When I wrote a draft blog post of my interview experiences, draft readers panned it as too boring and repetitive because I&#x27;d failed too many interviews. I should summarize my failures as a table because no one&#x27;s going to wa…</span>
                   </div>
                 </a>
               </details>
@@ -920,7 +973,7 @@ Note that when I say 95%-ile, I mean 95%-ile among people who participate, not a
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(22 min)</span>
                     <span>This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that&#x27;s 2.4 MB. If you think that&#x27;s trivial, consider that half of Americans still aren&#x27;t on broadband and the situation is much worse in developing countries.
-Let&#x27;s talk about files! Most developers seem to think that files are easy. Just for e…</span>
+Let&#x27;s talk about files! Most developers seem to think that files are easy. Just for example, let&#x27;s take a look at the top reddit r/programming comments from when Dropbox announced that they were only going to support ext4 on Linux (the most widely used Linux filesystem). For people not familiar with reddit r/programming, I suspect r/programming is the most widely read En…</span>
                   </div>
                 </a>
               </details>
@@ -942,7 +995,7 @@ Let&#x27;s talk about files! Most developers seem to think that files are easy. 
                 <a class="article-summary-link article-summary-box-outer" href="https://danluu.com/overwatch-gender/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(20 min)</span>
-                    <span>A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you…</span>
+                    <span>A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you have people saying &quot;sure, women get trash talked, but I&#x27;m a dude and I get trash talked, everyone gets trash talked there&#x27;s no difference&quot;, &quot;I&#x27;ve never seen this, it can&#x27;t be real&quot;, etc., and on the other side you have people saying things like &quot;when I play with my boyfriend, I get accu…</span>
                   </div>
                 </a>
               </details>
@@ -971,7 +1024,11 @@ Date:2018-03-28 02:23:46
 
 Hi all
 Some time ago I ran into an issue where a user encountered data corruption
-after a storage error. PostgreSQL played a part i…</span>
+after a storage error. PostgreSQL played a part in that corruption by
+allowing checkpoint what should&#x27;ve been a fatal error.
+TL;DR: Pg should PANIC on fsync() EIO return. Retrying fsync() is not OK at
+least on Linux. When fsync() returns success it means &quot;all writes since the
+last fsync have hit disk&quot; but we assume it means &quot;all writes…</span>
                   </div>
                 </a>
               </details>
@@ -994,7 +1051,20 @@ after a storage error. PostgreSQL played a part i…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(16 min)</span>
                     <span>I&#x27;ve had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response latency of devices I’ve run into in the past few months. Here are the results:
-table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}…</span>
+table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}
+
+
+computerlatency
+(ms)yearclock# T
+apple 2e3019831 MHz3.5k
+ti 99/4a4019813 MHz8k
+custom haswell-e 165Hz5020143.5 GHz2G
+commodore pet 40166019771 MHz3.5k
+sgi indy601993.1 GHz1.2M
+custom haswell-e 120Hz6020143.5 GHz2G
+thinkpad 13 chromeos7020172.3 GHz1G
+imac g4 os 9702002.8 GHz11M
+custom …</span>
                   </div>
                 </a>
               </details>
@@ -1016,7 +1086,8 @@ table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid 
                 <a class="article-summary-link article-summary-box-outer" href="https://danluu.com/bad-decisions/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(20 min)</span>
-                    <span>A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the informat…</span>
+                    <span>A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the information necessary to understand why the decision was efficient.
+Unfortunately, arguments like this are difficult to settle because, even in retrospect, it’s usually not possible to get enough information to determine the precise “value” of a decision. Even in cases where the decision led to …</span>
                   </div>
                 </a>
               </details>
@@ -1027,8 +1098,8 @@ table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid 
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-05-23T00:54:06.442Z">2021-05-23T00:54:06.442Z</time>
-    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.7.2</a></span>
+    <time id="build-timestamp" datetime="2021-05-24T00:51:23.326Z">2021-05-24T00:51:23.326Z</time>
+    <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.8.1</a></span>
   </footer>
   <script src="index.js"></script>
   <!-- %before-body-end.html% -->

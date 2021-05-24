@@ -6,12 +6,30 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "author": null,
+          "description": "Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "publishedOn": "2021-05-23T05:40:12.000Z",
+          "wordCount": 282,
+          "title": "v1.8.1"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "author": null,
+          "description": "Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don't use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a \"pseudo\" summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.\nThank you: @LooperXX.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "publishedOn": "2021-05-23T05:12:08.000Z",
+          "wordCount": 341,
+          "title": "v1.8.0"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "author": null,
           "description": "⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: \"16\" in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example\nChore: Reorganize to monorepo with npm workspace.",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "publishedOn": "2021-05-17T05:32:19.000Z",
-          "wordCount": 340,
+          "wordCount": 336,
           "title": "v1.7.2"
         },
         {
@@ -76,24 +94,6 @@
           "publishedOn": "2021-05-05T05:19:26.000Z",
           "wordCount": 293,
           "title": "v1.3.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "author": null,
-          "description": "Changed: favicon update.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "publishedOn": "2021-05-05T05:19:03.000Z",
-          "wordCount": 270,
-          "title": "v1.2.3"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "author": null,
-          "description": "Added: Display CLI version in footer.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "publishedOn": "2021-05-05T05:18:52.000Z",
-          "wordCount": 273,
-          "title": "v1.2.1"
         }
       ]
     },
@@ -105,7 +105,7 @@
         {
           "id": "https://danluu.com/essential-complexity/",
           "author": null,
-          "description": "In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that's fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl's law argument, saying that because 1/X of complexity is essential, it's impossible to ever get more than a fact…",
+          "description": "In the classic 1986 essay, No Silver Bullet, Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual1 complexity that's fundamentally not amenable to attack by any potential advances in technology (such as languages or tooling). He then uses an Ahmdahl's law argument, saying that because 1/X of complexity is essential, it's impossible to ever get more than a factor of X improvement via technological improvements.\nTowards the end of the essay, Brooks claims that at least 1/2 (most) of complexity in programming is essential, bounding the potential improvement remaining for all technological programming innovations combined to, at most, a factor of…",
           "link": "https://danluu.com/essential-complexity/",
           "publishedOn": "2020-12-29T00:00:00.000Z",
           "wordCount": 5620,
@@ -114,7 +114,7 @@
         {
           "id": "https://danluu.com/car-safety/",
           "author": null,
-          "description": "Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that…",
+          "description": "Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler tweak that essentially re-wrote the benchmark kernel, which increased the Sun UltraSPARC’s overall specfp score by 20%. At times, GPU vendors have added specialized benchmark-detecting code to their drivers that lowers image quality during benchmarking to produce higher benchmark scores. Of course, gaming the benchmark isn't unique to computing and we see people do this in other fields. It’s not surprising that we see this kind of behavior since improving benchmark scores by cheating on benchma…",
           "link": "https://danluu.com/car-safety/",
           "publishedOn": "2020-06-30T07:06:34.000Z",
           "wordCount": 7158,
@@ -123,7 +123,7 @@
         {
           "id": "https://danluu.com/voyager-story/",
           "author": null,
-          "description": "This is an archive of an old pseudonymously written post from the 90s that seems to have disappeared from the internet.\nI see that Star Trek: Voyager has added a new character, a Borg.\n(From the photos, I also see that they're still breeding women for breast size\nin the 24th century.) What ticked me off was the producer's comment (I'm\nparaphrasing), \"The addition of Seven of Nine will give us limitless\nstory possibilities.\"\nUh-huh. Riiiiiight.\nLook, they did't recognize the stories they had.\nI watched the f…",
+          "description": "This is an archive of an old pseudonymously written post from the 90s that seems to have disappeared from the internet.\nI see that Star Trek: Voyager has added a new character, a Borg.\n(From the photos, I also see that they're still breeding women for breast size\nin the 24th century.) What ticked me off was the producer's comment (I'm\nparaphrasing), \"The addition of Seven of Nine will give us limitless\nstory possibilities.\"\nUh-huh. Riiiiiight.\nLook, they did't recognize the stories they had.\nI watched the first few episodes of Voyager\nand quit when my bullshit meter when off the scale.\n(Maybe that's not fair, to judge them by only a few episodes.\nBut it's not fair to subject me to crap like the holographic lungs, either.)\nFor those of you who don't watch Star Trek: Voyager,\nthe premise is …",
           "link": "https://danluu.com/voyager-story/",
           "publishedOn": "2020-06-02T07:05:34.000Z",
           "wordCount": 1818,
@@ -132,7 +132,7 @@
         {
           "id": "https://danluu.com/tracing-analytics/",
           "author": null,
-          "description": "A lot of people seem to think that distributed tracing isn't useful, or at least not without extreme effort that isn't worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I've had. Sure, there's value somewhere, but it costs too much to unlock.\nI think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing a…",
+          "description": "A lot of people seem to think that distributed tracing isn't useful, or at least not without extreme effort that isn't worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I've had. Sure, there's value somewhere, but it costs too much to unlock.\nI think this overestimates how much work it is to get a lot of value from tracing. At Twitter, Rebecca Isaacs was able to lay out a vision for how to get value from tracing and executed on it (with help from a number other folks, including Jonathan Simms, Yuri Vishnevsky, Ruben Oanta, Dave Rusek, Hamdi Allam, and many others1) such that the work easily paid for itself. This post is going to describe the tracing \"infrastructure\" we've built and describe some …",
           "link": "https://danluu.com/tracing-analytics/",
           "publishedOn": "2020-05-31T07:06:34.000Z",
           "wordCount": 4116,
@@ -141,7 +141,7 @@
         {
           "id": "https://danluu.com/metrics-analytics/",
           "author": null,
-          "description": "We spent one day1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and all services and over any period of time (since inception), so we've called it LongTermMetrics (LTM) internally since I like boring, descriptive, names.\nThis got started when I was looking for a starter project th…",
+          "description": "We spent one day1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and all services and over any period of time (since inception), so we've called it LongTermMetrics (LTM) internally since I like boring, descriptive, names.\nThis got started when I was looking for a starter project that would both help me understand the Twitter infra stack and also have some easily quantifiable value. Andy Wilcox suggested looking at JVM survivor space utilization for some large services. If you're not familiar with what survivor space is, you can think of it as a configurable, fixed…",
           "link": "https://danluu.com/metrics-analytics/",
           "publishedOn": "2020-05-30T07:06:34.000Z",
           "wordCount": 4097,
@@ -150,7 +150,7 @@
         {
           "id": "https://danluu.com/corp-eng-blogs/",
           "author": null,
-          "description": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.\nI think this is odd because tech companies in that class often have hundreds to thousands of employees. They're overwhelmingly likely to be better equipped to write a compelli…",
+          "description": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.\nI think this is odd because tech companies in that class often have hundreds to thousands of employees. They're overwhelmingly likely to be better equipped to write a compelling blog than I am and companies get a lot more value from having a compelling blog than I do.\nWith respect to the former, employees of the company will have done more interesting engineering work, have more fun stories, and have more in-depth knowledge than any one person who has a perso…",
           "link": "https://danluu.com/corp-eng-blogs/",
           "publishedOn": "2020-03-11T00:00:00.000Z",
           "wordCount": 2209,
@@ -159,7 +159,7 @@
         {
           "id": "https://danluu.com/cli-complexity/",
           "author": null,
-          "description": "My hobby: opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other.\nThe first of McIlroy's dicta is often paraphrased as \"do one thing and do it well\", which is shortened from \"Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new 'features.'\"\nMcIlroy's example of this dictum is:\nSurprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate …",
+          "description": "My hobby: opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other.\nThe first of McIlroy's dicta is often paraphrased as \"do one thing and do it well\", which is shortened from \"Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new 'features.'\"\nMcIlroy's example of this dictum is:\nSurprising to outsiders is the fact that UNIX compilers produce no listings: printing can be done better and more flexibly by a separate program.\nIf you open up a manpage for ls on mac, you’ll see that it starts with\nls [-ABCFGHLOPRSTUW@abcdefghiklmnopqrstuwx1] [file ...]\n\nThat is, the one-letter flags to ls include every lowercase letter except for {jvyz}, 14 uppercase letters, plus @ and 1. That’s 22 + 14 + 2 = 38 singl…",
           "link": "https://danluu.com/cli-complexity/",
           "publishedOn": "2020-03-03T00:00:00.000Z",
           "wordCount": 4123,
@@ -168,7 +168,7 @@
         {
           "id": "https://danluu.com/discontinuities/",
           "author": null,
-          "description": "If you read any personal finance forums late last year, there's a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were expected to expire worthless, allowing the buyer to (probably) take a loss.\nOne reason people were looking for ways to lose money was that, in the U.S., there's a hard income cutoff for a health insurance subsid…",
+          "description": "If you read any personal finance forums late last year, there's a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were expected to expire worthless, allowing the buyer to (probably) take a loss.\nOne reason people were looking for ways to lose money was that, in the U.S., there's a hard income cutoff for a health insurance subsidy at $48,560 for individuals (higher for larger households; $100,400 for a family of four). There are a number of factors that can cause the details to vary (age, location, household size, type of plan), but across all circumstances, it wouldn't have been uncommon for an individual going…",
           "link": "https://danluu.com/discontinuities/",
           "publishedOn": "2020-02-18T00:00:00.000Z",
           "wordCount": 3696,
@@ -177,7 +177,7 @@
         {
           "id": "https://danluu.com/p95-skill/",
           "author": null,
-          "description": "Reaching 95%-ile isn't very impressive because it's not that hard to do. I think this is one of my most ridiculable ideas. It doesn't help that, when stated nakedly, that sounds elitist. But I think it's just the opposite: most people can become (relatively) good at most things.\nNote that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I'm also not referring to 95%-ile among people who p…",
+          "description": "Reaching 95%-ile isn't very impressive because it's not that hard to do. I think this is one of my most ridiculable ideas. It doesn't help that, when stated nakedly, that sounds elitist. But I think it's just the opposite: most people can become (relatively) good at most things.\nNote that when I say 95%-ile, I mean 95%-ile among people who participate, not all people (for many activities, just doing it at all makes you 99%-ile or above across all people). I'm also not referring to 95%-ile among people who practice regularly. The \"one weird trick\" is that, for a lot of activities, being something like 10%-ile among people who practice can make you something like 90%-ile or 99%-ile among people who participate.\nThis post is going to refer to specifics since the discussions I've seen about th…",
           "link": "https://danluu.com/p95-skill/",
           "publishedOn": "2020-02-07T00:00:00.000Z",
           "wordCount": 7147,
@@ -186,7 +186,7 @@
         {
           "id": "https://danluu.com/algorithms-interviews/",
           "author": null,
-          "description": "When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like \"we have so much scale, we can't afford to have someone accidentally write an O(n^2) algorithm and bring the site down\"1.  One thing I find funny about this is, even though a decent fraction of the value I've provided for companies has been solving phone-screen level algorithms problems on the job, I can't pass algorithms interviews! When I say that, people often think I mean t…",
+          "description": "When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like \"we have so much scale, we can't afford to have someone accidentally write an O(n^2) algorithm and bring the site down\"1.  One thing I find funny about this is, even though a decent fraction of the value I've provided for companies has been solving phone-screen level algorithms problems on the job, I can't pass algorithms interviews! When I say that, people often think I mean that I fail half my interviews or something. It's more than half.\nWhen I wrote a draft blog post of my interview experiences, draft readers panned it as too boring and repetitive because I'd failed too many interviews. I should summarize my failures as a table because no one's going to wa…",
           "link": "https://danluu.com/algorithms-interviews/",
           "publishedOn": "2020-01-05T00:00:00.000Z",
           "wordCount": 5771,
@@ -195,7 +195,7 @@
         {
           "id": "https://danluu.com/deconstruct-files/",
           "author": null,
-          "description": "This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that's 2.4 MB. If you think that's trivial, consider that half of Americans still aren't on broadband and the situation is much worse in developing countries.\nLet's talk about files! Most developers seem to think that files are easy. Just for e…",
+          "description": "This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that's 2.4 MB. If you think that's trivial, consider that half of Americans still aren't on broadband and the situation is much worse in developing countries.\nLet's talk about files! Most developers seem to think that files are easy. Just for example, let's take a look at the top reddit r/programming comments from when Dropbox announced that they were only going to support ext4 on Linux (the most widely used Linux filesystem). For people not familiar with reddit r/programming, I suspect r/programming is the most widely read En…",
           "link": "https://danluu.com/deconstruct-files/",
           "publishedOn": "2019-07-12T00:00:00.000Z",
           "wordCount": 6586,
@@ -204,7 +204,7 @@
         {
           "id": "https://danluu.com/overwatch-gender/",
           "author": null,
-          "description": "A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you…",
+          "description": "A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and involve the same debate every time, with the same points being made on both sides. Just for example, these three threads on reddit that spun out of a single post that have a total of 10.4k comments. On one side, you have people saying \"sure, women get trash talked, but I'm a dude and I get trash talked, everyone gets trash talked there's no difference\", \"I've never seen this, it can't be real\", etc., and on the other side you have people saying things like \"when I play with my boyfriend, I get accu…",
           "link": "https://danluu.com/overwatch-gender/",
           "publishedOn": "2019-02-19T00:00:00.000Z",
           "wordCount": 6001,
@@ -213,7 +213,7 @@
         {
           "id": "https://danluu.com/fsyncgate/",
           "author": null,
-          "description": "This is an archive of the original \"fsyncgate\" email thread. This is posted here because I wanted to have a link that would fit on a slide for a talk on file safety with a mobile-friendly non-bloated format.\nFrom:Craig Ringer <craig(at)2ndquadrant(dot)com>\nSubject:Re: PostgreSQL's handling of fsync() errors is unsafe and risks data loss at least on XFS\nDate:2018-03-28 02:23:46\n\nHi all\nSome time ago I ran into an issue where a user encountered data corruption\nafter a storage error. PostgreSQL played a part i…",
+          "description": "This is an archive of the original \"fsyncgate\" email thread. This is posted here because I wanted to have a link that would fit on a slide for a talk on file safety with a mobile-friendly non-bloated format.\nFrom:Craig Ringer <craig(at)2ndquadrant(dot)com>\nSubject:Re: PostgreSQL's handling of fsync() errors is unsafe and risks data loss at least on XFS\nDate:2018-03-28 02:23:46\n\nHi all\nSome time ago I ran into an issue where a user encountered data corruption\nafter a storage error. PostgreSQL played a part in that corruption by\nallowing checkpoint what should've been a fatal error.\nTL;DR: Pg should PANIC on fsync() EIO return. Retrying fsync() is not OK at\nleast on Linux. When fsync() returns success it means \"all writes since the\nlast fsync have hit disk\" but we assume it means \"all writes…",
           "link": "https://danluu.com/fsyncgate/",
           "publishedOn": "2018-03-28T00:00:00.000Z",
           "wordCount": 84172,
@@ -222,7 +222,7 @@
         {
           "id": "https://danluu.com/input-lag/",
           "author": null,
-          "description": "I've had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response latency of devices I’ve run into in the past few months. Here are the results:\ntable {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}…",
+          "description": "I've had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response latency of devices I’ve run into in the past few months. Here are the results:\ntable {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text-align:center;}td.l {text-align:left;}\n\n\ncomputerlatency\n(ms)yearclock# T\napple 2e3019831 MHz3.5k\nti 99/4a4019813 MHz8k\ncustom haswell-e 165Hz5020143.5 GHz2G\ncommodore pet 40166019771 MHz3.5k\nsgi indy601993.1 GHz1.2M\ncustom haswell-e 120Hz6020143.5 GHz2G\nthinkpad 13 chromeos7020172.3 GHz1G\nimac g4 os 9702002.8 GHz11M\ncustom …",
           "link": "https://danluu.com/input-lag/",
           "publishedOn": "2017-12-24T00:00:00.000Z",
           "wordCount": 4778,
@@ -231,7 +231,7 @@
         {
           "id": "https://danluu.com/bad-decisions/",
           "author": null,
-          "description": "A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the informat…",
+          "description": "A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is too competitive to tolerate discrimination. A less contentious example is that when you see a big company doing something that seems bizarrely inefficient, maybe it’s not inefficient and you just lack the information necessary to understand why the decision was efficient.\nUnfortunately, arguments like this are difficult to settle because, even in retrospect, it’s usually not possible to get enough information to determine the precise “value” of a decision. Even in cases where the decision led to …",
           "link": "https://danluu.com/bad-decisions/",
           "publishedOn": "2017-11-21T00:00:00.000Z",
           "wordCount": 5923,
@@ -247,7 +247,7 @@
         {
           "id": "https://macwright.com/2021/05/02/recently.html",
           "author": null,
-          "description": "I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.\nSan Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Eleva…",
+          "description": "I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.\nSan Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Elevation is so unavoidable that some hilly runs start to seem flat, then you visit another city and realize you can run 20 seconds faster a mile when things are actually flat.\nWhen I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mistake, I lived in the Mission District…",
           "link": "https://macwright.com/2021/05/02/recently.html",
           "publishedOn": "2021-05-02T00:00:00.000Z",
           "wordCount": 651,
@@ -256,7 +256,7 @@
         {
           "id": "https://macwright.com/2021/03/16/return-of-fancy-tools.html",
           "author": null,
-          "description": "Technology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmoded by Linear.\nThe pendulum swings back and forth, which isn’t a bad thing. Some o…",
+          "description": "Technology is seeing a little return to complexity. Dreamweaver gave way to hand-coding websites, which is now leading into Webflow, which is a lot like Dreamweaver. Evernote give way to minimal Markdown notes, which are now becoming Notion, Coda, or Craft. Visual Studio was “disrupted” by Sublime Text and TextMate, which are now getting replaced by Visual Studio Code. JIRA was replaced by GitHub issues, which is getting outmoded by Linear.\nThe pendulum swings back and forth, which isn’t a bad thing. Some of the reasons for the last pivot - from complexity to simplicity - have been solved. Webflow fills a need, and produces better output than Dreamweaver did. Notion is more accessible to people who don’t know Markdown. VS Code is very helpful. Excessively helpful. It’s fine.\nThe same probl…",
           "link": "https://macwright.com/2021/03/16/return-of-fancy-tools.html",
           "publishedOn": "2021-03-16T00:00:00.000Z",
           "wordCount": 537,
@@ -265,7 +265,7 @@
         {
           "id": "https://macwright.com/2021/03/11/vendor-by-default.html",
           "author": null,
-          "description": "This isn’t a recommendation. It’s more of a habit that I’ve acquired recently. If this makes its way to Hacker News\nand people think how could he, my only response will be 🤷, why not.\nI’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, …",
+          "description": "This isn’t a recommendation. It’s more of a habit that I’ve acquired recently. If this makes its way to Hacker News\nand people think how could he, my only response will be 🤷, why not.\nI’ve been building a thing, in JavaScript, an application sort of like things I’ve built in the past. With the same basic goal of making something useful. How I get to that goal is flexible. But it ends up being a lot of using boring technology, trying not to overthink the easy parts, trying to properly-think the hard parts, and so on. So there’s not that much to write home about that would surprise your usual React/Next.js/JavaScript engineer person.\nBut one thing that I do think is sort of unusual is: I’m vendoring a lot of stuff.\nVendoring, in the programming sense, means “copying the source code of anoth…",
           "link": "https://macwright.com/2021/03/11/vendor-by-default.html",
           "publishedOn": "2021-03-11T00:00:00.000Z",
           "wordCount": 1003,
@@ -274,7 +274,7 @@
         {
           "id": "https://macwright.com/2021/03/05/immutable-approaches.html",
           "author": null,
-          "description": "These are some rough thoughts on how to do immutability in programming, to power undo. If you’re looking for an opinionated ‘this is how to do it’ sort of post, I’ve written that about Immutable.js. This is more a publicly-shared scratchpad.\nFor the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle chall…",
+          "description": "These are some rough thoughts on how to do immutability in programming, to power undo. If you’re looking for an opinionated ‘this is how to do it’ sort of post, I’ve written that about Immutable.js. This is more a publicly-shared scratchpad.\nFor the fourth or so time in my career, I’m thinking about and implementing an ‘undo’ function. Undo is a powerful feature because it lets people do destructive or major operations without worrying because they can just hit command-z. Implementing undo is a subtle challenge for both UX & algorithms.\nI don’t think that my standard approach, in-memory immutability, is the way to go anymore.\nIn-memory immutability\n\nconst myself = Immutable.Map({ name: \"Tom\", favoriteColor: \"red\" });\nconst you = myself.set(\"name\", \"You\");\n\n\nThis is what was in Mapbox Studi…",
           "link": "https://macwright.com/2021/03/05/immutable-approaches.html",
           "publishedOn": "2021-03-05T00:00:00.000Z",
           "wordCount": 921,
@@ -283,7 +283,7 @@
         {
           "id": "https://macwright.com/2021/03/03/recently.html",
           "author": null,
-          "description": "A little late on this one! I’ve been focusing a bit on projects and work, and those days flipped past.\nListening\nI’ve been catching up on some back catalogs - Childish Gambino’s 3.15.20 and Beach House’s Depression Cherry.\nDepression Cherry by Beach House\n\nThe little bit of new music is Claud’s spectacular “Super Monster” a hit-packed little indie pop album. (via Rebecca Williams)\nSuper Monster by Claud\n\nWatching\n\n\nI’m the last person in the world to watch Spinal Tap, but boy is it fun.\nAdam Neely continues…",
+          "description": "A little late on this one! I’ve been focusing a bit on projects and work, and those days flipped past.\nListening\nI’ve been catching up on some back catalogs - Childish Gambino’s 3.15.20 and Beach House’s Depression Cherry.\nDepression Cherry by Beach House\n\nThe little bit of new music is Claud’s spectacular “Super Monster” a hit-packed little indie pop album. (via Rebecca Williams)\nSuper Monster by Claud\n\nWatching\n\n\nI’m the last person in the world to watch Spinal Tap, but boy is it fun.\nAdam Neely continues to make great stuff, like his breakdown of the ‘sea shanty’ trend on TikTok, from a music history perspective.\nReading\nI had bad luck with books in February, grinding my way through two that didn’t inspire. But then On Writing from Stephen King, which was excellent, and I’m part-way through Patricia Lockwood’s new book, No One Is Talking about This which is awesome so far. It’s, sure, for the incredibly online.\nIn my experience, if you’re incredibly online, then books that talk about the Internet, but are written by or for the the occasionally online – are unreadable. They live on the surface, exploring surface level memes like milkshake-duck or Pepe. So you mostly read books that are unrelated to the Internet, so that you don’t read some re-explanation of milkshake-ducking for the fifth time. Anyway, Lockwood lives it, knows the real stuff, and she’s also a fantastically good writer.",
           "link": "https://macwright.com/2021/03/03/recently.html",
           "publishedOn": "2021-03-03T00:00:00.000Z",
           "wordCount": 243,
@@ -292,7 +292,7 @@
         {
           "id": "https://macwright.com/2021/02/23/one-way-to-represent-things.html",
           "author": null,
-          "description": "I have a theory about the future of programming. I doubt I’m the first to have it, but as far as I can tell this isn’t the mainstream thought in the area, and I want to see if this connects for other folks.\nThere’s this idea about having ‘one way to do things’, that I think is most famous in its phrasing from the Zen of Python\nThere should be one– and preferably only one –obvious way to do it.\nPerl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”…",
+          "description": "I have a theory about the future of programming. I doubt I’m the first to have it, but as far as I can tell this isn’t the mainstream thought in the area, and I want to see if this connects for other folks.\nThere’s this idea about having ‘one way to do things’, that I think is most famous in its phrasing from the Zen of Python\nThere should be one– and preferably only one –obvious way to do it.\nPerl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”, as I’d guess is the dictum of Python and Go, or many ways, like Rust, JavaScript, Lisps, etc, it’s sort of undecided.\nBut let’s flip the telescope around and peer into the other end.\nProgramming is about data structures and the ways you manipulate them. There are few languages that can…",
           "link": "https://macwright.com/2021/02/23/one-way-to-represent-things.html",
           "publishedOn": "2021-02-23T00:00:00.000Z",
           "wordCount": 614,
@@ -301,7 +301,7 @@
         {
           "id": "https://macwright.com/2021/02/18/a-year-of-rails.html",
           "author": null,
-          "description": "I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.\nWe didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of …",
+          "description": "I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.\nWe didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of choosing the right kind of solution than pursuing some kind of perfect choice and burning hours and motivation doing the window-shopping.\nWhat helped Rails win was that the team had a little more experience in Ruby (with the exception of myself), and we found plenty of resources for deve…",
           "link": "https://macwright.com/2021/02/18/a-year-of-rails.html",
           "publishedOn": "2021-02-18T00:00:00.000Z",
           "wordCount": 2188,
@@ -310,7 +310,7 @@
         {
           "id": "https://macwright.com/2021/02/17/the-naming-of-things.html",
           "author": null,
-          "description": "Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.\nAvoid weasel words\nWikipedia’s article about weasel words is incredible. In this context I mean words like this:\nData\nProcess\nRun\nDo\nSetup\nThese words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s be…",
+          "description": "Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.\nAvoid weasel words\nWikipedia’s article about weasel words is incredible. In this context I mean words like this:\nData\nProcess\nRun\nDo\nSetup\nThese words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s better:\nA method like processData probably isn’t processing any kind of data. Maybe processCsv?\nIs it really just “processing” that CSV. Maybe it’s coercing columns that are strings that should be numbers. Maybe coerceCsvRows?\nThat’s probably better!\nA variable like data probably isn’t gen…",
           "link": "https://macwright.com/2021/02/17/the-naming-of-things.html",
           "publishedOn": "2021-02-17T00:00:00.000Z",
           "wordCount": 596,
@@ -319,7 +319,7 @@
         {
           "id": "https://macwright.com/2021/02/01/recently.html",
           "author": null,
-          "description": "The last Recently feels like\na lot longer than a month away. In the undifferentiated temporal sprawl of the last\nyear, leaving my job in January marked a clear difference between between before\nand after. Not, though, in the sense that I haven’t been working. My time\nquickly filled up with a little freelance work, a lot of projects, and some pent-up\nenergy directed into reading and writing. I wrote\na few\nthings this month.\nFrustrated with SwiftUI, I abandoned the first version of a Gemini browser\nand am rew…",
+          "description": "The last Recently feels like\na lot longer than a month away. In the undifferentiated temporal sprawl of the last\nyear, leaving my job in January marked a clear difference between between before\nand after. Not, though, in the sense that I haven’t been working. My time\nquickly filled up with a little freelance work, a lot of projects, and some pent-up\nenergy directed into reading and writing. I wrote\na few\nthings this month.\nFrustrated with SwiftUI, I abandoned the first version of a Gemini browser\nand am rewriting it in something else. It is abundantly clear that, as an unemployed person or not, I have zero chill.\nAnd thanks to everyone who has reached out re: my work thing!\nReading\nI am, of course, a sucker for Robin Rendle’s thing about newsletters.\nLike all technology on the upswing, it’…",
           "link": "https://macwright.com/2021/02/01/recently.html",
           "publishedOn": "2021-02-01T00:00:00.000Z",
           "wordCount": 641,
@@ -328,7 +328,7 @@
         {
           "id": "https://macwright.com/2021/01/22/tank-hill.html",
           "author": null,
-          "description": "I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.\n\n\nIt’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin…",
+          "description": "I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.\n\n\nIt’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin Peaks, or continuing through to the bigger hills behind it. Stairs in San Francisco are ever-present and sort of a grab-bag - from the street, I can’t tell if they’re leading to another road, a view, or someone’s secluded mansion.\nViews: 5/5\nTank Hill feels like Corona Heights or Kite H…",
           "link": "https://macwright.com/2021/01/22/tank-hill.html",
           "publishedOn": "2021-01-22T00:00:00.000Z",
           "wordCount": 768,
@@ -434,5 +434,5 @@
       ]
     }
   ],
-  "cliVersion": "1.7.2"
+  "cliVersion": "1.8.1"
 }
