@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-25T00:50:46.207Z</updated>
+    <updated>2021-05-26T01:00:40.628Z</updated>
     <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[App Store Arguments]]></title>
+        <id>https://stratechery.com/?p=5930</id>
+        <link href="https://stratechery.com/2021/app-store-arguments/"/>
+        <updated>2021-05-25T16:14:58.000Z</updated>
+        <summary type="html"><![CDATA[There are all kinds of arguments to make about the App Store, and nearly all of them are good ones; that's why the best solution can only come from Apple.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.8.1]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1</id>
@@ -296,16 +306,6 @@ I had bad luck with books in February, grinding my way through two that didn’t
 In my experience, if you’re incredibly online, then books that talk about the Internet, but are written by or for the the occasionally online – are unreadable. They live on the surface, exploring surface level memes like milkshake-duck or Pepe. So you mostly read books that are unrelated to the Internet, so that you don’t read some re-explanation of milkshake-ducking for the fifth time. Anyway, Lockwood lives it, knows the real stuff, and she’s also a fantastically good writer.]]></summary>
         <author>
             <name>Tom MacWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Web’s Missing Interoperability]]></title>
-        <id>https://stratechery.com/?p=5649</id>
-        <link href="https://stratechery.com/2021/the-webs-missing-interoperability/"/>
-        <updated>2021-03-02T15:13:18.000Z</updated>
-        <summary type="html"><![CDATA[Truly unlocking competition in tech means increasing interoperability; an absolutist approach to privacy is doing the exact opposite.]]></summary>
-        <author>
-            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>

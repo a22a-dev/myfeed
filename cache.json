@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=5930",
+          "author": "Ben Thompson",
+          "description": "There are all kinds of arguments to make about the App Store, and nearly all of them are good ones; that's why the best solution can only come from Apple.",
+          "link": "https://stratechery.com/2021/app-store-arguments/",
+          "publishedOn": "2021-05-25T16:14:58.000Z",
+          "wordCount": 4293,
+          "title": "App Store Arguments"
+        },
+        {
           "id": "https://stratechery.com/?p=5889",
           "author": "Ben Thompson",
           "description": "Distribution on the Internet is free; what matters is controlling demand. AT&T and Verizon didn't understand the distinction.",
           "link": "https://stratechery.com/2021/distribution-and-demand/",
           "publishedOn": "2021-05-18T12:57:29.000Z",
-          "wordCount": 2557,
+          "wordCount": 2561,
           "title": "Distribution and Demand"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-03-09T16:08:37.000Z",
           "wordCount": 2661,
           "title": "The Roblox Microverse"
-        },
-        {
-          "id": "https://stratechery.com/?p=5649",
-          "author": "Ben Thompson",
-          "description": "Truly unlocking competition in tech means increasing interoperability; an absolutist approach to privacy is doing the exact opposite.",
-          "link": "https://stratechery.com/2021/the-webs-missing-interoperability/",
-          "publishedOn": "2021-03-02T15:13:18.000Z",
-          "wordCount": 3088,
-          "title": "The Web’s Missing Interoperability"
         }
       ]
     }
