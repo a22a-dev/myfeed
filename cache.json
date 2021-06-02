@@ -6,12 +6,21 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
+          "author": null,
+          "description": "Added: testing and CI/CD workflows",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
+          "publishedOn": "2021-06-01T04:39:30.000Z",
+          "wordCount": 268,
+          "title": "v1.10.2"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
           "author": null,
           "description": "Added: experimental support for iTunes podcast feed: Demo | Source. With this new release, you can render an audio control to play the mp3 file and display iTunes episode duration. It is \"experimental\" due to these caveats:\n\nThis feature is currently only available through custom template.\niTunes has no strict format requirement for duration. The unit is most likely seconds but can be \"hh:mm:ss\" or \"mm:ss\" for some sources. A future version may expose a human readable string to the template.\nNo image support yet. Some shows might have disabled CORS or use a relative URL for image, which forces osmosfeed to download the image during build. A future version may support it.\nYou can't republish the podcast in the feed output. Supporting this goes beyond the scope of the project at the moment.\nFixed: the articles in template data were not sorted.\nThank you @Zenigata",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
           "publishedOn": "2021-05-26T06:02:55.000Z",
-          "wordCount": 417,
+          "wordCount": 413,
           "title": "v1.9.0"
         },
         {
@@ -85,15 +94,6 @@
           "publishedOn": "2021-05-08T05:16:47.000Z",
           "wordCount": 306,
           "title": "v1.5.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
-          "author": null,
-          "description": "Fixed: Avoid crwalers.\nFixed: Error logging from XML parser.\nFixed: Typo in docs.\nThank you: @dym-sh, @tabokie, @cheese1",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
-          "publishedOn": "2021-05-05T05:19:57.000Z",
-          "wordCount": 285,
-          "title": "v1.3.1"
         }
       ]
     },
@@ -245,6 +245,15 @@
       "siteUrl": "https://macwright.com/atom.xml",
       "articles": [
         {
+          "id": "https://macwright.com/2021/06/01/recently.html",
+          "author": null,
+          "description": "This was a big month. May 1 feels like eons ago. I’m in a different\nplace (New York). The\nsituation with COVID feels dramatically different. Acquired a few new\ngray hairs due to the absolute horror which is the logistics of moving\ncross-country, especially during a pandemic. We spent a few nervous weeks\nwaiting for furniture to arrive, and dreading the next interaction with our\nabsolutely-terrible-no-good moving company. When VCs and some tech company\n‘disrupt’ moving by undercutting and technologizing movers, I will make\nan exception and cheer them on: this industry deserves to end.\nBut then, seeing so many old faces, reconnecting, finding a new\nfavorite restaurant and bar every few days. Visiting family. Feeling some optimism\nabout the general future.\n\nCaleb Porzio’s making 100k as an em…",
+          "link": "https://macwright.com/2021/06/01/recently.html",
+          "publishedOn": "2021-06-01T00:00:00.000Z",
+          "wordCount": 492,
+          "title": "Recently"
+        },
+        {
           "id": "https://macwright.com/2021/05/02/recently.html",
           "author": null,
           "description": "I just moved to New York. Three years and nine months ago, I landed in San Francisco. When you leave San Francisco, you’re required to write a Medium post about it, so here’s mine.\nSan Francisco is a dream to run in. You have hills like Twin Peaks that tower over the city, rugged places like Glen Canyon where you can forget you’re in a city. Running around the Embarcadero in the heat, and running to the ocean via Golden Gate Park, where that last leg of JFK Drive gets chilly because of the sea breeze. Elevation is so unavoidable that some hilly runs start to seem flat, then you visit another city and realize you can run 20 seconds faster a mile when things are actually flat.\nWhen I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mistake, I lived in the Mission District…",
@@ -324,15 +333,6 @@
           "publishedOn": "2021-02-01T00:00:00.000Z",
           "wordCount": 641,
           "title": "Recently"
-        },
-        {
-          "id": "https://macwright.com/2021/01/22/tank-hill.html",
-          "author": null,
-          "description": "I’ve never lived in the west side of San Francisco, where the Sunset District is forty-five avenues of flat suburban-style development, to the south of Golden Gate Park. So I’ve always approached San Francisco’s column of major hills - Twin Peaks, Corona Heights, Mount Davidson - from the north and the east. I think it’s this approach, from Twin Peaks Boulevard, that managed to hide Tank Hill in plain sight.\n\n\nIt’s just above a set of stairs off the side of the road, but I was always intent on climbing Twin Peaks, or continuing through to the bigger hills behind it. Stairs in San Francisco are ever-present and sort of a grab-bag - from the street, I can’t tell if they’re leading to another road, a view, or someone’s secluded mansion.\nViews: 5/5\nTank Hill feels like Corona Heights or Kite H…",
-          "link": "https://macwright.com/2021/01/22/tank-hill.html",
-          "publishedOn": "2021-01-22T00:00:00.000Z",
-          "wordCount": 768,
-          "title": "Tom Rates Hills: Tank Hill"
         }
       ]
     },
@@ -434,5 +434,5 @@
       ]
     }
   ],
-  "cliVersion": "1.9.0"
+  "cliVersion": "1.10.2"
 }
