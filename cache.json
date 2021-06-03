@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=5954",
+          "author": "Ben Thompson",
+          "description": "Stratechery is on break June 1–2, 2021.",
+          "link": "https://stratechery.com/2021/break-june-1-june-2/",
+          "publishedOn": "2021-06-02T11:51:30.000Z",
+          "wordCount": 228,
+          "title": "Break: June 1–2, 2021"
+        },
+        {
           "id": "https://stratechery.com/?p=5930",
           "author": "Ben Thompson",
           "description": "There are all kinds of arguments to make about the App Store, and nearly all of them are good ones; that's why the best solution can only come from Apple.",
           "link": "https://stratechery.com/2021/app-store-arguments/",
           "publishedOn": "2021-05-25T16:14:58.000Z",
-          "wordCount": 4263,
+          "wordCount": 4268,
           "title": "App Store Arguments"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-03-16T13:34:52.000Z",
           "wordCount": 5017,
           "title": "Moderation in Infrastructure"
-        },
-        {
-          "id": "https://stratechery.com/?p=5658",
-          "author": "Ben Thompson",
-          "description": "Roblox is something new and interesting that abstracts away the platforms underneath it.",
-          "link": "https://stratechery.com/2021/the-roblox-microverse/",
-          "publishedOn": "2021-03-09T16:08:37.000Z",
-          "wordCount": 2620,
-          "title": "The Roblox Microverse"
         }
       ]
     }

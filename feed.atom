@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-02T02:15:07.273Z</updated>
+    <updated>2021-06-03T01:52:27.585Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Break: June 1–2, 2021]]></title>
+        <id>https://stratechery.com/?p=5954</id>
+        <link href="https://stratechery.com/2021/break-june-1-june-2/"/>
+        <updated>2021-06-02T11:51:30.000Z</updated>
+        <summary type="html"><![CDATA[Stratechery is on break June 1–2, 2021.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.10.2]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2</id>
@@ -276,16 +286,6 @@ But one thing that I do think is sort of unusual is: I’m vendoring a lot of st
 Vendoring, in the programming sense, means “copying the source code of anoth…]]></summary>
         <author>
             <name>Tom MacWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Roblox Microverse]]></title>
-        <id>https://stratechery.com/?p=5658</id>
-        <link href="https://stratechery.com/2021/the-roblox-microverse/"/>
-        <updated>2021-03-09T16:08:37.000Z</updated>
-        <summary type="html"><![CDATA[Roblox is something new and interesting that abstracts away the platforms underneath it.]]></summary>
-        <author>
-            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
