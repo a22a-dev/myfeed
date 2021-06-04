@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-03T01:52:27.585Z</updated>
+    <updated>2021-06-04T01:35:46.821Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[Break: June 1–2, 2021]]></title>
-        <id>https://stratechery.com/?p=5954</id>
-        <link href="https://stratechery.com/2021/break-june-1-june-2/"/>
-        <updated>2021-06-02T11:51:30.000Z</updated>
-        <summary type="html"><![CDATA[Stratechery is on break June 1–2, 2021.]]></summary>
+        <title type="html"><![CDATA[Passport]]></title>
+        <id>https://stratechery.com/?p=6443</id>
+        <link href="https://stratechery.com/2021/passport/"/>
+        <updated>2021-06-03T18:36:17.000Z</updated>
+        <summary type="html"><![CDATA[Announcing Passport, the new infrastructure supporting Stratechery.]]></summary>
         <author>
             <name>Ben Thompson</name>
         </author>
@@ -68,9 +68,9 @@ Thank you @Zenigata]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[App Store Arguments]]></title>
-        <id>https://stratechery.com/?p=5930</id>
+        <id>https://stratechery.com/?p=6401</id>
         <link href="https://stratechery.com/2021/app-store-arguments/"/>
-        <updated>2021-05-25T16:14:58.000Z</updated>
+        <updated>2021-05-25T16:14:19.000Z</updated>
         <summary type="html"><![CDATA[There are all kinds of arguments to make about the App Store, and nearly all of them are good ones; that's why the best solution can only come from Apple.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -99,12 +99,12 @@ Thank you: @LooperXX.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Distribution and Demand]]></title>
-        <id>https://stratechery.com/?p=5889</id>
+        <id>https://stratechery.com/?p=6357</id>
         <link href="https://stratechery.com/2021/distribution-and-demand/"/>
-        <updated>2021-05-18T12:57:29.000Z</updated>
+        <updated>2021-05-18T12:57:39.000Z</updated>
         <summary type="html"><![CDATA[Distribution on the Internet is free; what matters is controlling demand. AT&T and Verizon didn't understand the distinction.]]></summary>
         <author>
-            <name>Ben Thompson</name>
+            <name>Daman Rangoola</name>
         </author>
     </entry>
     <entry>
@@ -142,9 +142,9 @@ Thank you @tianheg, @onnyyonn]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cloudflare on the Edge]]></title>
-        <id>https://stratechery.com/?p=5876</id>
+        <id>https://stratechery.com/?p=6346</id>
         <link href="https://stratechery.com/2021/cloudflare-on-the-edge/"/>
-        <updated>2021-05-11T17:01:56.000Z</updated>
+        <updated>2021-05-11T17:01:42.000Z</updated>
         <summary type="html"><![CDATA[Cloudflare is uniquely positioned to become a major player in an Internet 3.0 world, where politics matter more than economics.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -192,9 +192,9 @@ Chore: Excluded testing files from repo.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Market-Making on the Internet]]></title>
-        <id>https://stratechery.com/?p=5856</id>
+        <id>https://stratechery.com/?p=6334</id>
         <link href="https://stratechery.com/2021/market-making-on-the-internet/"/>
-        <updated>2021-05-05T13:58:27.000Z</updated>
+        <updated>2021-05-05T13:58:49.000Z</updated>
         <summary type="html"><![CDATA[More and more opportunities on the web come from market marking, not for advertisers, but for real goods and services paid for with real money.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -214,19 +214,19 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
     </entry>
     <entry>
         <title type="html"><![CDATA[Spotify’s Surprise]]></title>
-        <id>https://stratechery.com/?p=5828</id>
+        <id>https://stratechery.com/?p=6311</id>
         <link href="https://stratechery.com/2021/spotifys-surprise/"/>
-        <updated>2021-04-28T13:19:27.000Z</updated>
+        <updated>2021-04-28T13:19:07.000Z</updated>
         <summary type="html"><![CDATA[Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.]]></summary>
         <author>
-            <name>Ben Thompson</name>
+            <name>Daman Rangoola</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Podcast Subscriptions vs. the App Store]]></title>
-        <id>https://stratechery.com/?p=5800</id>
+        <id>https://stratechery.com/?p=6273</id>
         <link href="https://stratechery.com/2021/podcast-subscriptions-vs-the-app-store/"/>
-        <updated>2021-04-21T14:44:43.000Z</updated>
+        <updated>2021-04-21T14:44:25.000Z</updated>
         <summary type="html"><![CDATA[Apple's new Podcast Subscription service is what the App Store should be: a great Apple experience competing for customers.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -234,9 +234,9 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
     </entry>
     <entry>
         <title type="html"><![CDATA[Non-Fungible Taylor Swift]]></title>
-        <id>https://stratechery.com/?p=5756</id>
+        <id>https://stratechery.com/?p=6234</id>
         <link href="https://stratechery.com/2021/non-fungible-taylor-swift/"/>
-        <updated>2021-04-12T14:01:55.000Z</updated>
+        <updated>2021-04-12T14:01:03.000Z</updated>
         <summary type="html"><![CDATA[Taylor Swift, like Dave Chappelle, is leveraging the power of the Internet to take control of their art.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -244,9 +244,9 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
     </entry>
     <entry>
         <title type="html"><![CDATA[Sovereign Writers and Substack]]></title>
-        <id>https://stratechery.com/?p=5684</id>
+        <id>https://stratechery.com/?p=6169</id>
         <link href="https://stratechery.com/2021/sovereign-writers-and-substack/"/>
-        <updated>2021-03-22T14:46:26.000Z</updated>
+        <updated>2021-03-22T14:46:50.000Z</updated>
         <summary type="html"><![CDATA[Substack is at the center of media controversy, most of which misses the point that sovereign writers — not Substack — are in control.]]></summary>
         <author>
             <name>Ben Thompson</name>
@@ -254,9 +254,9 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
     </entry>
     <entry>
         <title type="html"><![CDATA[Moderation in Infrastructure]]></title>
-        <id>https://stratechery.com/?p=5671</id>
+        <id>https://stratechery.com/?p=6154</id>
         <link href="https://stratechery.com/2021/moderation-in-infrastructure/"/>
-        <updated>2021-03-16T13:34:52.000Z</updated>
+        <updated>2021-03-16T13:34:22.000Z</updated>
         <summary type="html"><![CDATA[Infrastructure companies need a distinct approach to moderation that focuses on neutrality and due process.]]></summary>
         <author>
             <name>Ben Thompson</name>
