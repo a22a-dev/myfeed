@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-08T01:05:30.149Z</updated>
+    <updated>2021-06-09T00:46:04.769Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Integrated Apple and App Store Risk]]></title>
+        <id>https://stratechery.com/?p=6535</id>
+        <link href="https://stratechery.com/2021/integrated-apple-and-app-store-risk/"/>
+        <updated>2021-06-08T11:21:37.000Z</updated>
+        <summary type="html"><![CDATA[WWDC highlighted how Apple's differentiation is based on integration; the company ought not risk that differentiation for exploitive App Store policies.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Passport]]></title>
         <id>https://stratechery.com/?p=6443</id>
@@ -248,16 +258,6 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
         <link href="https://stratechery.com/2021/sovereign-writers-and-substack/"/>
         <updated>2021-03-22T14:46:50.000Z</updated>
         <summary type="html"><![CDATA[Substack is at the center of media controversy, most of which misses the point that sovereign writers — not Substack — are in control.]]></summary>
-        <author>
-            <name>Ben Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moderation in Infrastructure]]></title>
-        <id>https://stratechery.com/?p=6154</id>
-        <link href="https://stratechery.com/2021/moderation-in-infrastructure/"/>
-        <updated>2021-03-16T13:34:22.000Z</updated>
-        <summary type="html"><![CDATA[Infrastructure companies need a distinct approach to moderation that focuses on neutrality and due process.]]></summary>
         <author>
             <name>Ben Thompson</name>
         </author>

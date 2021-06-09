@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=6535",
+          "author": "Ben Thompson",
+          "description": "WWDC highlighted how Apple's differentiation is based on integration; the company ought not risk that differentiation for exploitive App Store policies.",
+          "link": "https://stratechery.com/2021/integrated-apple-and-app-store-risk/",
+          "publishedOn": "2021-06-08T11:21:37.000Z",
+          "wordCount": 2768,
+          "title": "Integrated Apple and App Store Risk"
+        },
+        {
           "id": "https://stratechery.com/?p=6443",
           "author": "Ben Thompson",
           "description": "Announcing Passport, the new infrastructure supporting Stratechery.",
           "link": "https://stratechery.com/2021/passport/",
           "publishedOn": "2021-06-03T18:36:17.000Z",
-          "wordCount": 1970,
+          "wordCount": 1977,
           "title": "Passport"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-03-22T14:46:50.000Z",
           "wordCount": 3312,
           "title": "Sovereign Writers and Substack"
-        },
-        {
-          "id": "https://stratechery.com/?p=6154",
-          "author": "Ben Thompson",
-          "description": "Infrastructure companies need a distinct approach to moderation that focuses on neutrality and due process.",
-          "link": "https://stratechery.com/2021/moderation-in-infrastructure/",
-          "publishedOn": "2021-03-16T13:34:22.000Z",
-          "wordCount": 5044,
-          "title": "Moderation in Infrastructure"
         }
       ]
     }
