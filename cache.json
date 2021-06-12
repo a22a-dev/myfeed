@@ -245,6 +245,15 @@
       "siteUrl": "https://macwright.com/atom.xml",
       "articles": [
         {
+          "id": "https://macwright.com/2021/06/11/the-theme.html",
+          "author": null,
+          "description": "I recently released the theme for macwright.com for sale on Ko-fi.\nToday I’m adding the /photos section to that theme (something I’ve written about before),\nand giving a little background information.\nThis site’s brutalist design is the result of about a decade of refinement\nand tweaking. For specific goals - minimalism, optimization, adaptability,\nclarity - I think it has achieved a certain balance.\nI get an email about which theme I’m using every month or two. The answer is,\nwell, this one. I started from a blank HTML page a decade ago, and have\ntried to make it better ever since. Better in a few ways:\nClean bill of health from Google Lighthouse: 100 in performance,\naccessibility, and SEO.\nReal accessibility, based on real feedback from folks with reduced\nvision.\nPages are tiny and excep…",
+          "link": "https://macwright.com/2021/06/11/the-theme.html",
+          "publishedOn": "2021-06-11T00:00:00.000Z",
+          "wordCount": 422,
+          "title": "You can now buy this theme"
+        },
+        {
           "id": "https://macwright.com/2021/06/01/recently.html",
           "author": null,
           "description": "This was a big month. May 1 feels like eons ago. I’m in a different\nplace (New York). The\nsituation with COVID feels dramatically different. Acquired a few new\ngray hairs due to the absolute horror which is the logistics of moving\ncross-country, especially during a pandemic. We spent a few nervous weeks\nwaiting for furniture to arrive, and dreading the next interaction with our\nabsolutely-terrible-no-good moving company. When VCs and some tech company\n‘disrupt’ moving by undercutting and technologizing movers, I will make\nan exception and cheer them on: this industry deserves to end.\nBut then, seeing so many old faces, reconnecting, finding a new\nfavorite restaurant and bar every few days. Visiting family. Feeling some optimism\nabout the general future.\n\nCaleb Porzio’s making 100k as an em…",
@@ -324,15 +333,6 @@
           "publishedOn": "2021-02-17T00:00:00.000Z",
           "wordCount": 596,
           "title": "Picking better names for variables, functions, and projects"
-        },
-        {
-          "id": "https://macwright.com/2021/02/01/recently.html",
-          "author": null,
-          "description": "The last Recently feels like\na lot longer than a month away. In the undifferentiated temporal sprawl of the last\nyear, leaving my job in January marked a clear difference between between before\nand after. Not, though, in the sense that I haven’t been working. My time\nquickly filled up with a little freelance work, a lot of projects, and some pent-up\nenergy directed into reading and writing. I wrote\na few\nthings this month.\nFrustrated with SwiftUI, I abandoned the first version of a Gemini browser\nand am rewriting it in something else. It is abundantly clear that, as an unemployed person or not, I have zero chill.\nAnd thanks to everyone who has reached out re: my work thing!\nReading\nI am, of course, a sucker for Robin Rendle’s thing about newsletters.\nLike all technology on the upswing, it’…",
-          "link": "https://macwright.com/2021/02/01/recently.html",
-          "publishedOn": "2021-02-01T00:00:00.000Z",
-          "wordCount": 641,
-          "title": "Recently"
         }
       ]
     },
