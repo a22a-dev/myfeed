@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=6592",
+          "author": "Ben Thompson",
+          "description": "A package of new proposed laws for regulating tech companies are in part a negotiating ploy, but also an indicator of change.",
+          "link": "https://stratechery.com/2021/the-cicilline-salvo/",
+          "publishedOn": "2021-06-15T11:54:20.000Z",
+          "wordCount": 3221,
+          "title": "The Cicilline Salvo"
+        },
+        {
           "id": "https://stratechery.com/?p=6535",
           "author": "Ben Thompson",
           "description": "WWDC highlighted how Apple's differentiation is based on integration; the company ought not risk that differentiation for exploitive App Store policies.",
           "link": "https://stratechery.com/2021/integrated-apple-and-app-store-risk/",
           "publishedOn": "2021-06-08T11:21:37.000Z",
-          "wordCount": 2796,
+          "wordCount": 2800,
           "title": "Integrated Apple and App Store Risk"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-04-12T14:01:03.000Z",
           "wordCount": 2368,
           "title": "Non-Fungible Taylor Swift"
-        },
-        {
-          "id": "https://stratechery.com/?p=6169",
-          "author": "Ben Thompson",
-          "description": "Substack is at the center of media controversy, most of which misses the point that sovereign writers — not Substack — are in control.",
-          "link": "https://stratechery.com/2021/sovereign-writers-and-substack/",
-          "publishedOn": "2021-03-22T14:46:50.000Z",
-          "wordCount": 3329,
-          "title": "Sovereign Writers and Substack"
         }
       ]
     }
