@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=6648",
+          "author": "Ben Thompson",
+          "description": "Marc Andreessen has changed his tone over the past year; there is a cynical interpretation, but I think the shift is justified.",
+          "link": "https://stratechery.com/2021/pandemic-progress/",
+          "publishedOn": "2021-06-21T13:47:12.000Z",
+          "wordCount": 3007,
+          "title": "Pandemic Progress"
+        },
+        {
           "id": "https://stratechery.com/?p=6592",
           "author": "Ben Thompson",
           "description": "A package of new proposed laws for regulating tech companies are in part a negotiating ploy, but also an indicator of change.",
           "link": "https://stratechery.com/2021/the-cicilline-salvo/",
           "publishedOn": "2021-06-15T11:54:20.000Z",
-          "wordCount": 3219,
+          "wordCount": 3222,
           "title": "The Cicilline Salvo"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-04-21T14:44:25.000Z",
           "wordCount": 2546,
           "title": "Podcast Subscriptions vs. the App Store"
-        },
-        {
-          "id": "https://stratechery.com/?p=6234",
-          "author": "Ben Thompson",
-          "description": "Taylor Swift, like Dave Chappelle, is leveraging the power of the Internet to take control of their art.",
-          "link": "https://stratechery.com/2021/non-fungible-taylor-swift/",
-          "publishedOn": "2021-04-12T14:01:03.000Z",
-          "wordCount": 2366,
-          "title": "Non-Fungible Taylor Swift"
         }
       ]
     }

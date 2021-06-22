@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-21T00:41:47.497Z</updated>
+    <updated>2021-06-22T00:38:17.630Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pandemic Progress]]></title>
+        <id>https://stratechery.com/?p=6648</id>
+        <link href="https://stratechery.com/2021/pandemic-progress/"/>
+        <updated>2021-06-21T13:47:12.000Z</updated>
+        <summary type="html"><![CDATA[Marc Andreessen has changed his tone over the past year; there is a cynical interpretation, but I think the shift is justified.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Cicilline Salvo]]></title>
         <id>https://stratechery.com/?p=6592</id>
@@ -271,16 +281,6 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
         <link href="https://stratechery.com/2021/podcast-subscriptions-vs-the-app-store/"/>
         <updated>2021-04-21T14:44:25.000Z</updated>
         <summary type="html"><![CDATA[Apple's new Podcast Subscription service is what the App Store should be: a great Apple experience competing for customers.]]></summary>
-        <author>
-            <name>Ben Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Non-Fungible Taylor Swift]]></title>
-        <id>https://stratechery.com/?p=6234</id>
-        <link href="https://stratechery.com/2021/non-fungible-taylor-swift/"/>
-        <updated>2021-04-12T14:01:03.000Z</updated>
-        <summary type="html"><![CDATA[Taylor Swift, like Dave Chappelle, is leveraging the power of the Internet to take control of their art.]]></summary>
         <author>
             <name>Ben Thompson</name>
         </author>
