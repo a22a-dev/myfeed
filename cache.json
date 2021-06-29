@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=6683",
+          "author": "Ben Thompson",
+          "description": "The Windows 11 announcement was fun and interesting, but there is a reason that Windows is no longer the center of Microsoft's business.",
+          "link": "https://stratechery.com/2021/the-lightness-of-windows/",
+          "publishedOn": "2021-06-28T14:14:35.000Z",
+          "wordCount": 3098,
+          "title": "The Lightness of Windows"
+        },
+        {
           "id": "https://stratechery.com/?p=6648",
           "author": "Ben Thompson",
           "description": "Marc Andreessen has changed his tone over the past year; there is a cynical interpretation, but I think the shift is justified.",
           "link": "https://stratechery.com/2021/pandemic-progress/",
           "publishedOn": "2021-06-21T13:47:12.000Z",
-          "wordCount": 3004,
+          "wordCount": 3009,
           "title": "Pandemic Progress"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-04-28T13:19:07.000Z",
           "wordCount": 2532,
           "title": "Spotify’s Surprise"
-        },
-        {
-          "id": "https://stratechery.com/?p=6273",
-          "author": "Ben Thompson",
-          "description": "Apple's new Podcast Subscription service is what the App Store should be: a great Apple experience competing for customers.",
-          "link": "https://stratechery.com/2021/podcast-subscriptions-vs-the-app-store/",
-          "publishedOn": "2021-04-21T14:44:25.000Z",
-          "wordCount": 2543,
-          "title": "Podcast Subscriptions vs. the App Store"
         }
       ]
     }

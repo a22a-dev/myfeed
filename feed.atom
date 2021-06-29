@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-28T00:43:01.860Z</updated>
+    <updated>2021-06-29T00:40:17.523Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Lightness of Windows]]></title>
+        <id>https://stratechery.com/?p=6683</id>
+        <link href="https://stratechery.com/2021/the-lightness-of-windows/"/>
+        <updated>2021-06-28T14:14:35.000Z</updated>
+        <summary type="html"><![CDATA[The Windows 11 announcement was fun and interesting, but there is a reason that Windows is no longer the center of Microsoft's business.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.11.0]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0</id>
@@ -282,16 +292,6 @@ When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mist
         <summary type="html"><![CDATA[Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.]]></summary>
         <author>
             <name>Daman Rangoola</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Podcast Subscriptions vs. the App Store]]></title>
-        <id>https://stratechery.com/?p=6273</id>
-        <link href="https://stratechery.com/2021/podcast-subscriptions-vs-the-app-store/"/>
-        <updated>2021-04-21T14:44:25.000Z</updated>
-        <summary type="html"><![CDATA[Apple's new Podcast Subscription service is what the App Store should be: a great Apple experience competing for customers.]]></summary>
-        <author>
-            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
