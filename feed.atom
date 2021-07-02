@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-01T00:43:57.283Z</updated>
+    <updated>2021-07-02T00:40:14.165Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Recently]]></title>
+        <id>https://macwright.com/2021/07/01/recently.html</id>
+        <link href="https://macwright.com/2021/07/01/recently.html"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[So I guess the biggest news is that I’m starting to work on Placemark
+as a real product and a real company. Back to the world of maps,
+to handle some unfinished business: making map data editing good.
+It’s been a lot of fun to work on Placemark so far. I’ve written
+up some notes on the Placemark blog,
+and have been posting teasers on the Placemark Twitter account,
+almost daily.
+
+One project I was involved in with consulting has launched:
+the Tree Equity Score website
+for American Forests,
+with Iced Coffee Please.
+I think it’s pretty interesting, and it just happened to launch in the middle
+of a historic heat wave that is killing people
+and exposing how poor places in cities are deprived of funding, planning,
+and staffing for urban tree canopy.
+
+
+Tyler the Creator’s Call Me If You Get Lost
+…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Lightness of Windows]]></title>
         <id>https://stratechery.com/?p=6683</id>
@@ -387,28 +416,6 @@ Programming is about data structures and the ways you manipulate them. There are
         <summary type="html"><![CDATA[I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.
 We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of choosing the right kind of solution than pursuing some kind of perfect choice and burning hours and motivation doing the window-shopping.
 What helped Rails win was that the team had a little more experience in Ruby (with the exception of myself), and we found plenty of resources for deve…]]></summary>
-        <author>
-            <name>Tom MacWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Picking better names for variables, functions, and projects]]></title>
-        <id>https://macwright.com/2021/02/17/the-naming-of-things.html</id>
-        <link href="https://macwright.com/2021/02/17/the-naming-of-things.html"/>
-        <updated>2021-02-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.
-Avoid weasel words
-Wikipedia’s article about weasel words is incredible. In this context I mean words like this:
-Data
-Process
-Run
-Do
-Setup
-These words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s better:
-A method like processData probably isn’t processing any kind of data. Maybe processCsv?
-Is it really just “processing” that CSV. Maybe it’s coercing columns that are strings that should be numbers. Maybe coerceCsvRows?
-That’s probably better!
-A variable like data probably isn’t gen…]]></summary>
         <author>
             <name>Tom MacWright</name>
         </author>

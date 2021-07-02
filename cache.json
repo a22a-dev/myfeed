@@ -245,6 +245,15 @@
       "siteUrl": "https://macwright.com/atom.xml",
       "articles": [
         {
+          "id": "https://macwright.com/2021/07/01/recently.html",
+          "author": null,
+          "description": "So I guess the biggest news is that I’m starting to work on Placemark\nas a real product and a real company. Back to the world of maps,\nto handle some unfinished business: making map data editing good.\nIt’s been a lot of fun to work on Placemark so far. I’ve written\nup some notes on the Placemark blog,\nand have been posting teasers on the Placemark Twitter account,\nalmost daily.\n\nOne project I was involved in with consulting has launched:\nthe Tree Equity Score website\nfor American Forests,\nwith Iced Coffee Please.\nI think it’s pretty interesting, and it just happened to launch in the middle\nof a historic heat wave that is killing people\nand exposing how poor places in cities are deprived of funding, planning,\nand staffing for urban tree canopy.\n\n\nTyler the Creator’s Call Me If You Get Lost\n…",
+          "link": "https://macwright.com/2021/07/01/recently.html",
+          "publishedOn": "2021-07-01T00:00:00.000Z",
+          "wordCount": 407,
+          "title": "Recently"
+        },
+        {
           "id": "https://macwright.com/2021/06/11/the-theme.html",
           "author": null,
           "description": "I recently released the theme for macwright.com for sale on Ko-fi.\nToday I’m adding the /photos section to that theme (something I’ve written about before),\nand giving a little background information.\nThis site’s brutalist design is the result of about a decade of refinement\nand tweaking. For specific goals - minimalism, optimization, adaptability,\nclarity - I think it has achieved a certain balance.\nI get an email about which theme I’m using every month or two. The answer is,\nwell, this one. I started from a blank HTML page a decade ago, and have\ntried to make it better ever since. Better in a few ways:\nClean bill of health from Google Lighthouse: 100 in performance,\naccessibility, and SEO.\nReal accessibility, based on real feedback from folks with reduced\nvision.\nPages are tiny and excep…",
@@ -324,15 +333,6 @@
           "publishedOn": "2021-02-18T00:00:00.000Z",
           "wordCount": 2188,
           "title": "A year of Rails"
-        },
-        {
-          "id": "https://macwright.com/2021/02/17/the-naming-of-things.html",
-          "author": null,
-          "description": "Naming things in programming is hard. It’s not impossible, though. Here are some guidelines I usually follow.\nAvoid weasel words\nWikipedia’s article about weasel words is incredible. In this context I mean words like this:\nData\nProcess\nRun\nDo\nSetup\nThese words usually don’t mean anything at all. Any variable could be called data. Any method could be called process. These words don’t inform or differentiate. Most methods and variables that include these names are misnamed. Think hard and figure out what’s better:\nA method like processData probably isn’t processing any kind of data. Maybe processCsv?\nIs it really just “processing” that CSV. Maybe it’s coercing columns that are strings that should be numbers. Maybe coerceCsvRows?\nThat’s probably better!\nA variable like data probably isn’t gen…",
-          "link": "https://macwright.com/2021/02/17/the-naming-of-things.html",
-          "publishedOn": "2021-02-17T00:00:00.000Z",
-          "wordCount": 596,
-          "title": "Picking better names for variables, functions, and projects"
         }
       ]
     },
@@ -347,7 +347,7 @@
           "description": "The Windows 11 announcement was fun and interesting, but there is a reason that Windows is no longer the center of Microsoft's business.",
           "link": "https://stratechery.com/2021/the-lightness-of-windows/",
           "publishedOn": "2021-06-28T14:14:35.000Z",
-          "wordCount": 3102,
+          "wordCount": 3097,
           "title": "The Lightness of Windows"
         },
         {
@@ -356,7 +356,7 @@
           "description": "Marc Andreessen has changed his tone over the past year; there is a cynical interpretation, but I think the shift is justified.",
           "link": "https://stratechery.com/2021/pandemic-progress/",
           "publishedOn": "2021-06-21T13:47:12.000Z",
-          "wordCount": 3013,
+          "wordCount": 3008,
           "title": "Pandemic Progress"
         },
         {
@@ -365,7 +365,7 @@
           "description": "A package of new proposed laws for regulating tech companies are in part a negotiating ploy, but also an indicator of change.",
           "link": "https://stratechery.com/2021/the-cicilline-salvo/",
           "publishedOn": "2021-06-15T11:54:20.000Z",
-          "wordCount": 3223,
+          "wordCount": 3218,
           "title": "The Cicilline Salvo"
         },
         {
@@ -374,7 +374,7 @@
           "description": "WWDC highlighted how Apple's differentiation is based on integration; the company ought not risk that differentiation for exploitive App Store policies.",
           "link": "https://stratechery.com/2021/integrated-apple-and-app-store-risk/",
           "publishedOn": "2021-06-08T11:21:37.000Z",
-          "wordCount": 2799,
+          "wordCount": 2794,
           "title": "Integrated Apple and App Store Risk"
         },
         {
@@ -383,7 +383,7 @@
           "description": "Announcing Passport, the new infrastructure supporting Stratechery.",
           "link": "https://stratechery.com/2021/passport/",
           "publishedOn": "2021-06-03T18:36:17.000Z",
-          "wordCount": 1993,
+          "wordCount": 1988,
           "title": "Passport"
         },
         {
@@ -392,7 +392,7 @@
           "description": "There are all kinds of arguments to make about the App Store, and nearly all of them are good ones; that's why the best solution can only come from Apple.",
           "link": "https://stratechery.com/2021/app-store-arguments/",
           "publishedOn": "2021-05-25T16:14:19.000Z",
-          "wordCount": 4301,
+          "wordCount": 4296,
           "title": "App Store Arguments"
         },
         {
@@ -401,7 +401,7 @@
           "description": "Distribution on the Internet is free; what matters is controlling demand. AT&T and Verizon didn't understand the distinction.",
           "link": "https://stratechery.com/2021/distribution-and-demand/",
           "publishedOn": "2021-05-18T12:57:39.000Z",
-          "wordCount": 2571,
+          "wordCount": 2566,
           "title": "Distribution and Demand"
         },
         {
@@ -410,7 +410,7 @@
           "description": "Cloudflare is uniquely positioned to become a major player in an Internet 3.0 world, where politics matter more than economics.",
           "link": "https://stratechery.com/2021/cloudflare-on-the-edge/",
           "publishedOn": "2021-05-11T17:01:42.000Z",
-          "wordCount": 3709,
+          "wordCount": 3704,
           "title": "Cloudflare on the Edge"
         },
         {
@@ -419,7 +419,7 @@
           "description": "More and more opportunities on the web come from market marking, not for advertisers, but for real goods and services paid for with real money.",
           "link": "https://stratechery.com/2021/market-making-on-the-internet/",
           "publishedOn": "2021-05-05T13:58:49.000Z",
-          "wordCount": 2370,
+          "wordCount": 2365,
           "title": "Market-Making on the Internet"
         },
         {
@@ -428,7 +428,7 @@
           "description": "Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.",
           "link": "https://stratechery.com/2021/spotifys-surprise/",
           "publishedOn": "2021-04-28T13:19:07.000Z",
-          "wordCount": 2536,
+          "wordCount": 2531,
           "title": "Spotify’s Surprise"
         }
       ]
