@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-05T00:37:53.415Z</updated>
+    <updated>2021-07-06T00:42:17.095Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Two Wishes for Dev Tooling]]></title>
+        <id>https://macwright.com/2021/07/05/two-wishes-for-dev-tooling.html</id>
+        <link href="https://macwright.com/2021/07/05/two-wishes-for-dev-tooling.html"/>
+        <updated>2021-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A few days ago, Simon Willison wrote a great post about PAGNIs, inspired by another post about YAGNI exceptions. I thought both were great, especially the bits about developer tooling. I’ve set up certain parts of tooling for teams multiple times - continuous integration, unit tests, code quality tools, continuous deployment - and every time it has been positive ROI, even counting the tears shed trying to keep front-end continuous-integration tests running.
+But it got me thinking about two parts of developer tooling that aren’t widespread and feel like they could be a lot better: one that exists but just isn’t that popular anymore, and the other that doesn’t really exist but I think it should. Here goes.
+Nonbinary code quality
+My projects typically use two tools that statically analyze cod…]]></summary>
+        <author>
+            <name>Tom MacWright</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Recently]]></title>
         <id>https://macwright.com/2021/07/01/recently.html</id>
@@ -404,18 +417,6 @@ There should be one– and preferably only one –obvious way to do it.
 Perl has the opposite motto: There’s more than one way to do it. Whether it’s better to have “one way to do things”, as I’d guess is the dictum of Python and Go, or many ways, like Rust, JavaScript, Lisps, etc, it’s sort of undecided.
 But let’s flip the telescope around and peer into the other end.
 Programming is about data structures and the ways you manipulate them. There are few languages that can…]]></summary>
-        <author>
-            <name>Tom MacWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A year of Rails]]></title>
-        <id>https://macwright.com/2021/02/18/a-year-of-rails.html</id>
-        <link href="https://macwright.com/2021/02/18/a-year-of-rails.html"/>
-        <updated>2021-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.
-We didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of choosing the right kind of solution than pursuing some kind of perfect choice and burning hours and motivation doing the window-shopping.
-What helped Rails win was that the team had a little more experience in Ruby (with the exception of myself), and we found plenty of resources for deve…]]></summary>
         <author>
             <name>Tom MacWright</name>
         </author>

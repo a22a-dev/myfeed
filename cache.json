@@ -245,6 +245,15 @@
       "siteUrl": "https://macwright.com/atom.xml",
       "articles": [
         {
+          "id": "https://macwright.com/2021/07/05/two-wishes-for-dev-tooling.html",
+          "author": null,
+          "description": "A few days ago, Simon Willison wrote a great post about PAGNIs, inspired by another post about YAGNI exceptions. I thought both were great, especially the bits about developer tooling. I’ve set up certain parts of tooling for teams multiple times - continuous integration, unit tests, code quality tools, continuous deployment - and every time it has been positive ROI, even counting the tears shed trying to keep front-end continuous-integration tests running.\nBut it got me thinking about two parts of developer tooling that aren’t widespread and feel like they could be a lot better: one that exists but just isn’t that popular anymore, and the other that doesn’t really exist but I think it should. Here goes.\nNonbinary code quality\nMy projects typically use two tools that statically analyze cod…",
+          "link": "https://macwright.com/2021/07/05/two-wishes-for-dev-tooling.html",
+          "publishedOn": "2021-07-05T00:00:00.000Z",
+          "wordCount": 1192,
+          "title": "Two Wishes for Dev Tooling"
+        },
+        {
           "id": "https://macwright.com/2021/07/01/recently.html",
           "author": null,
           "description": "So I guess the biggest news is that I’m starting to work on Placemark\nas a real product and a real company. Back to the world of maps,\nto handle some unfinished business: making map data editing good.\nIt’s been a lot of fun to work on Placemark so far. I’ve written\nup some notes on the Placemark blog,\nand have been posting teasers on the Placemark Twitter account,\nalmost daily.\n\nOne project I was involved in with consulting has launched:\nthe Tree Equity Score website\nfor American Forests,\nwith Iced Coffee Please.\nI think it’s pretty interesting, and it just happened to launch in the middle\nof a historic heat wave that is killing people\nand exposing how poor places in cities are deprived of funding, planning,\nand staffing for urban tree canopy.\n\n\nTyler the Creator’s Call Me If You Get Lost\n…",
@@ -324,15 +333,6 @@
           "publishedOn": "2021-02-23T00:00:00.000Z",
           "wordCount": 614,
           "title": "One way to represent things"
-        },
-        {
-          "id": "https://macwright.com/2021/02/18/a-year-of-rails.html",
-          "author": null,
-          "description": "I spent most of 2020 working with Ruby on Rails. I moved a project from Next.js + Rust to… Rails, baby! Back to the future. My earlier post on Second-guessing the modern web was inspired by this experience, that for the product we were building, a ‘modern’ stack was not working as well as a traditional one.\nWe didn’t do competitive analysis against Laravel, Django, or Phoenix. They’re similar, not radically better or worse. There are multiple acceptable solutions to a problem, and this was more a matter of choosing the right kind of solution than pursuing some kind of perfect choice and burning hours and motivation doing the window-shopping.\nWhat helped Rails win was that the team had a little more experience in Ruby (with the exception of myself), and we found plenty of resources for deve…",
-          "link": "https://macwright.com/2021/02/18/a-year-of-rails.html",
-          "publishedOn": "2021-02-18T00:00:00.000Z",
-          "wordCount": 2188,
-          "title": "A year of Rails"
         }
       ]
     },
