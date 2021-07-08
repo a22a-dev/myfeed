@@ -342,12 +342,21 @@
       "siteUrl": "https://stratechery.com",
       "articles": [
         {
+          "id": "https://stratechery.com/?p=6742",
+          "author": "Ben Thompson",
+          "description": "Instagram's shift away from being a photo-sharing app is very much inline with the service's continuous evolution.",
+          "link": "https://stratechery.com/2021/instagrams-evolution/",
+          "publishedOn": "2021-07-07T15:19:25.000Z",
+          "wordCount": 3542,
+          "title": "Instagram’s Evolution"
+        },
+        {
           "id": "https://stratechery.com/?p=6683",
           "author": "Ben Thompson",
           "description": "The Windows 11 announcement was fun and interesting, but there is a reason that Windows is no longer the center of Microsoft's business.",
           "link": "https://stratechery.com/2021/the-lightness-of-windows/",
           "publishedOn": "2021-06-28T14:14:35.000Z",
-          "wordCount": 3102,
+          "wordCount": 3105,
           "title": "The Lightness of Windows"
         },
         {
@@ -421,15 +430,6 @@
           "publishedOn": "2021-05-05T13:58:49.000Z",
           "wordCount": 2370,
           "title": "Market-Making on the Internet"
-        },
-        {
-          "id": "https://stratechery.com/?p=6311",
-          "author": "Daman Rangoola",
-          "description": "Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.",
-          "link": "https://stratechery.com/2021/spotifys-surprise/",
-          "publishedOn": "2021-04-28T13:19:07.000Z",
-          "wordCount": 2536,
-          "title": "Spotify’s Surprise"
         }
       ]
     }

@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GITHUB_USERNAME.github.io/REPO_NAME/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-07T00:42:39.367Z</updated>
+    <updated>2021-07-08T00:39:47.785Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://GITHUB_USERNAME.github.io/REPO_NAME/index.html"/>
     <link rel="self" href="https://GITHUB_USERNAME.github.io/REPO_NAME/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Instagram’s Evolution]]></title>
+        <id>https://stratechery.com/?p=6742</id>
+        <link href="https://stratechery.com/2021/instagrams-evolution/"/>
+        <updated>2021-07-07T15:19:25.000Z</updated>
+        <summary type="html"><![CDATA[Instagram's shift away from being a photo-sharing app is very much inline with the service's continuous evolution.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two Wishes for Dev Tooling]]></title>
         <id>https://macwright.com/2021/07/05/two-wishes-for-dev-tooling.html</id>
@@ -324,16 +334,6 @@ San Francisco is a dream to run in. You have hills like Twin Peaks that tower ov
 When I moved to San Francisco, I moved to the Haight-Ashbury. Realizing the mistake, I lived in the Mission District…]]></summary>
         <author>
             <name>Tom MacWright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spotify’s Surprise]]></title>
-        <id>https://stratechery.com/?p=6311</id>
-        <link href="https://stratechery.com/2021/spotifys-surprise/"/>
-        <updated>2021-04-28T13:19:07.000Z</updated>
-        <summary type="html"><![CDATA[Spotify's new subscription podcast offerings embrace the open ecosystem of podcasts in multiple ways.]]></summary>
-        <author>
-            <name>Daman Rangoola</name>
         </author>
     </entry>
     <entry>
